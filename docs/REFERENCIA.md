@@ -16,6 +16,6 @@ O vídeo enviado foi analisado visualmente como referência da experiência de �
 
 A programação continua demonstrativa. Selecionar um dia não registra realização. A sequência continua contendo nove treinos, não 21, e o encerramento é complementar. Todos os treinos e fases podem ser acessados sem bloqueio de datas. Conteúdos não fornecidos continuam identificados como em preparação. Os registros existentes mantêm a chave de armazenamento e os mesmos IDs.
 
-O progresso das orientações considera seis introdutórias, uma apresentação do bônus alimentar e o encerramento. Ele mede a leitura informada pela aluna, não a reprodução de um vídeo. Concluir os nove treinos não comprova 21 dias de prática.
+O progresso das orientações considera sete introdutórias (incluindo a apresentação do bônus alimentar) e o encerramento. Ele mede a leitura informada pela aluna, não a reprodução de um vídeo. Concluir os nove treinos não comprova 21 dias de prática.
 
 A atualização não inclui integração comercial ou liberação de adicionais. A prévia tem publicação própria no GitHub Pages, documentada em `PUBLICACAO.md`.

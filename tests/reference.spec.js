@@ -44,7 +44,13 @@ test("reference module covers and interactive 21-day explorer", async ({
       () => JSON.parse(localStorage.getItem("15m36:member:v1")).completed,
     ),
   ).toEqual([]);
-  await page.goto("/#/aula/bonus-alimentar");
+  await page.goto("/#/modulo/comece");
+  await expect(page.locator(".resource-list > .resource")).toHaveCount(7);
+  await page.getByRole("link", { name: /Conheça seu bônus alimentar/ }).click();
+  await expect(page.locator("h1")).toHaveText("Conheça seu bônus alimentar");
+  await expect(
+    page.getByRole("heading", { name: "Vídeo em preparação" }),
+  ).toBeVisible();
   await page
     .getByRole("button", { name: "Marcar orientação como lida" })
     .click();
@@ -60,7 +66,24 @@ test("reference module covers and interactive 21-day explorer", async ({
   await page
     .getByRole("link", { name: "Voltar ao módulo", exact: true })
     .click();
-  await expect(page).toHaveURL(/modulo\/alimentacao$/);
+  await expect(page).toHaveURL(/modulo\/comece$/);
+  await expect(
+    page.getByText(
+      "1 de 7 orientações lidas · Progresso independente dos treinos.",
+    ),
+  ).toBeVisible();
+  await page.screenshot({
+    path: `artifacts/${info.project.name}-comece-aqui-bonus-alimentar.png`,
+    fullPage: true,
+  });
+  for (const path of ["/alimentacao", "/modulo/alimentacao"]) {
+    await page.goto("/#" + path);
+    await expect(
+      page.getByRole("link", { name: /Conheça seu bônus alimentar/ }),
+    ).toHaveCount(0);
+    await expect(page.locator(".document-card")).toHaveCount(2);
+    await expect(page.locator(".recipe-card")).toHaveCount(40);
+  }
   await page.goto("/");
   await page.screenshot({
     path: `artifacts/${info.project.name}-modelo-video.png`,

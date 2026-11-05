@@ -65,6 +65,12 @@ export const intro = [
     title: "Como iniciar e adaptar com segurança",
     text: "Respeite seus limites e prepare um espaço livre e seguro. Se sentir dor ou mal-estar, interrompa a atividade e procure orientação profissional. Exercícios e adaptações específicos ainda serão fornecidos.",
   },
+  {
+    id: "bonus-alimentar",
+    title: "Conheça seu bônus alimentar",
+    module: "comece",
+    text: "A Dieta Metabólica reúne os espaços para roteiro alimentar, receitas, substituições econômicas, lista de compras e preparo das refeições. As receitas de air fryer fazem parte deste mesmo conjunto. Consulte o cardápio de quatro refeições e as 40 receitas do e-book Cozinha na Rotina. Eles incluem substituições, lista de compras, preparos de base e orientações de conservação. O roteiro diário de 21 dias continua em preparação. Este bônus é educativo e não substitui uma prescrição alimentar individual.",
+  },
 ];
 export const modules = [
   {
@@ -95,12 +101,6 @@ export const modules = [
 ];
 
 export const complementary = [
-  {
-    id: "bonus-alimentar",
-    title: "Conheça seu bônus alimentar",
-    module: "alimentacao",
-    text: "A Dieta Metabólica reúne os espaços para roteiro alimentar, receitas, substituições econômicas, lista de compras e preparo das refeições. As receitas de air fryer fazem parte deste mesmo conjunto. Consulte o cardápio de quatro refeições e as 40 receitas do e-book Cozinha na Rotina. Eles incluem substituições, lista de compras, preparos de base e orientações de conservação. O roteiro diário de 21 dias continua em preparação. Este bônus é educativo e não substitui uma prescrição alimentar individual.",
-  },
   {
     id: "encerramento",
     title: "Dia 21 · Encerramento",

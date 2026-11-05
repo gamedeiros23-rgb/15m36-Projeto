@@ -4,7 +4,7 @@
 
 Os dados dos módulos e treinos continuam em `src/content.js`. Preserve os IDs. Copie um vídeo autorizado para `public/media/` e configure `video` no treino com o caminho relativo. Sem URL, a tela mantém “Vídeo em preparação”. Insira apenas os cinco exercícios reais aprovados em `exercises`.
 
-As seis orientações estão em `intro`. `complementary` centraliza a apresentação do bônus e o encerramento, com progresso separado dos treinos. Os vídeos introdutórios precisam de campo e renderização próprios quando forem fornecidos; ler texto não equivale a assistir vídeo. Capas e calendário demonstrativo estão em `moduleCovers` e `calendarDays`.
+As sete orientações de Comece aqui estão em `intro`, incluindo “Conheça seu bônus alimentar”. `complementary` mantém o encerramento. O progresso das orientações continua separado dos treinos. Os vídeos introdutórios precisam de campo e renderização próprios quando forem fornecidos; ler texto não equivale a assistir vídeo. Capas e calendário demonstrativo estão em `moduleCovers` e `calendarDays`.
 
 ## Alimentação
 

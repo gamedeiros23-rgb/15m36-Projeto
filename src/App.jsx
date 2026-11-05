@@ -416,8 +416,9 @@ export default function App() {
               ))}
             </div>
             <p className="muted">
-              {intro.filter((l) => state.lessons.includes(l.id)).length} de 6
-              orientações lidas · Progresso independente dos treinos.
+              {intro.filter((l) => state.lessons.includes(l.id)).length} de{" "}
+              {intro.length} orientações lidas · Progresso independente dos
+              treinos.
             </p>
             <Button to="/treinos">Conhecer os treinos</Button>
           </>

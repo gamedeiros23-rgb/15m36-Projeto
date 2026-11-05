@@ -216,14 +216,6 @@ export default function Food() {
         </span>
       </div>
       <FoodDownloads />
-      <Link className="resource bonus-orientation" to="/aula/bonus-alimentar">
-        <BookOpen size={22} />
-        <div>
-          <h3>Conheça seu bônus alimentar</h3>
-          <p>Orientação em texto · Vídeo em preparação</p>
-        </div>
-        <ChevronRight size={19} />
-      </Link>
       <MealPlan />
       <section aria-labelledby="recipes-heading" className="recipe-library">
         <div className="section-heading">

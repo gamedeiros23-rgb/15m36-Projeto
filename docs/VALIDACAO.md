@@ -80,3 +80,11 @@ Execução final: **31 testes aprovados e 3 ignorados intencionalmente** (menu m
 Capturas: `artifacts/*-visao-geral-primeiro-acesso.png` e `artifacts/*-visao-geral-apos-inicio.png`. Os dois estados desktop foram inspecionados visualmente.
 
 O build `3d894731009c1bb7e048210b9e68d0e3d42aeaf5` foi confirmado como `built` no mesmo endereço público. Os 18 arquivos publicados foram conferidos por HTTPS com verificação TLS ativa e SHA-256 idêntico ao build validado localmente.
+
+## Aula de apresentação alimentar em Comece aqui
+
+“Conheça seu bônus alimentar” foi movida para Comece aqui como sétima orientação. Seu ID e endereço `/#/aula/bonus-alimentar` foram preservados, bem como os registros de leitura existentes. O retorno da aula aponta para Comece aqui. O total global continua sendo oito orientações: sete introdutórias e o encerramento; o contador interno de Comece aqui é derivado da quantidade de aulas. O vídeo não foi fornecido e continua como “Vídeo em preparação”.
+
+O acesso foi removido das duas entradas da página Alimentação (menu e módulo alimentar), sem alterar os PDFs, cardápio, receitas, filtros ou início do desafio. Foram executados os testes existentes de referência/navegação e de alimentação em desktop e celular: **8 aprovados**. Incluem a nova localização, retorno ao módulo, persistência da leitura, contador de sete aulas, ausência do link na alimentação, 40 receitas e integridade dos downloads. Capturas: `artifacts/*-comece-aqui-bonus-alimentar.png`.
+
+A publicação `733c6ac113292943dc19d5f319dfacef943a389d` foi confirmada como `built` no mesmo endereço. Os 18 arquivos públicos tiveram SHA-256 idêntico ao build validado, via HTTPS com verificação TLS ativa.

@@ -45,6 +45,8 @@ Os dados ficam no `localStorage`, chave `15m36:member:v1`. A água é separada p
 
 ## Conteúdos
 
+A aula “Conheça seu bônus alimentar” fica em Comece aqui, junto das outras seis orientações. A página Alimentação concentra os materiais e as ferramentas alimentares.
+
 O bônus alimentar inclui o cardápio de quatro refeições e as 40 receitas do e-book Cozinha na Rotina enviados pelo responsável. Os dois PDFs podem ser consultados e baixados. A biblioteca tem busca e filtros; as fichas mantêm ingredientes, quantidades, tempos, conservação e alergênicos. As listas de compras, bases de preparo e substituições dos documentos também estão disponíveis. Consulte `docs/ALIMENTACAO.md`.
 
 Vídeos, exercícios específicos e o roteiro alimentar diário de 21 dias continuam em preparação. O cardápio é um guia de opções de quatro refeições, sem prescrição individual. O material não afirma testes em cozinha ou validação nutricional. Os adicionais não concedem direitos de acesso nesta prévia.

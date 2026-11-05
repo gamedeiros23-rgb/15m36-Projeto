@@ -1,0 +1,1568 @@
+{
+  "recipes": [
+    {
+      "id": "receita-01",
+      "number": 1,
+      "name": "Omelete de tomate e espinafre",
+      "meal": "Café da manhã",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "8 min",
+      "cookTime": "6-8 min",
+      "ingredients": [
+        "2 ovos",
+        "1/2 tomate picado (60 g)",
+        "1/2 xícara de espinafre picado (20 g)",
+        "1 colher de chá de azeite (5 ml)",
+        "1 pitada de sal e orégano a gosto"
+      ],
+      "steps": [
+        "Bata os ovos com sal e orégano.",
+        "Aqueça o azeite em fogo médio-baixo. Refogue o tomate e o espinafre por 2 minutos.",
+        "Junte os ovos e distribua o recheio. Tampe e cozinhe por 4-6 minutos, até firmar por completo; preparos com ovos devem atingir 71 °C no centro."
+      ],
+      "utensils": "Frigideira antiaderente de 20 cm, tigela e espátula.",
+      "substitutions": "Troque o espinafre por couve bem picada ou abobrinha ralada e espremida, no mesmo volume. Refogue a abobrinha até secar o excesso de água.",
+      "serving": "Combine com pão ou cuscuz e uma fruta, conforme a organização da refeição.",
+      "storage": "Refrigerar por até 2 dias. Reaquecer até 74 °C no centro. A textura fica melhor no preparo imediato.",
+      "allergens": "Ovos.",
+      "temperature": null,
+      "sourcePage": 6,
+      "yield": "1 omelete / 1 porção"
+    },
+    {
+      "id": "receita-02",
+      "number": 2,
+      "name": "Panqueca de banana e aveia",
+      "meal": "Café da manhã",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "5 min",
+      "cookTime": "6-8 min",
+      "ingredients": [
+        "1 banana pequena madura, sem casca (80 g)",
+        "1 ovo",
+        "3 colheres de sopa de aveia em flocos finos (30 g)",
+        "1/2 colher de chá de canela, opcional",
+        "1/2 colher de chá de azeite (2,5 ml) para untar"
+      ],
+      "steps": [
+        "Amasse a banana e misture com o ovo, a aveia e a canela. Descanse por 2 minutos.",
+        "Unte a frigideira e aqueça em fogo baixo. Divida a massa em dois discos.",
+        "Cozinhe por 3-4 minutos de cada lado, virando com cuidado. O interior deve estar firme e cozido, sem massa crua; referência para ovos: 71 °C."
+      ],
+      "utensils": "Tigela, garfo e frigideira antiaderente.",
+      "substitutions": "Use maçã finamente ralada e espremida (80 g) no lugar da banana. Se a massa ficar mais líquida, acrescente 1 colher de sopa de aveia.",
+      "serving": "Sirva com iogurte natural ou fruta picada.",
+      "storage": "Refrigerar por até 2 dias ou congelar por até 30 dias, separando as unidades. Reaquecer bem.",
+      "allergens": "Ovos; aveia pode conter glúten.",
+      "temperature": null,
+      "sourcePage": 7,
+      "yield": "2 panquecas pequenas / 1 porção"
+    },
+    {
+      "id": "receita-03",
+      "number": 3,
+      "name": "Aveia de geladeira com mamão",
+      "meal": "Café da manhã",
+      "method": "Sem cozimento",
+      "methods": [
+        "Sem cozimento"
+      ],
+      "prepTime": "5 min",
+      "cookTime": "6-12 h de geladeira",
+      "ingredients": [
+        "1 pote de iogurte natural (170 g)",
+        "3 colheres de sopa de aveia (30 g)",
+        "2 colheres de sopa de leite (30 ml)",
+        "1 colher de chá de chia (5 g)",
+        "1/2 xícara de mamão em cubos (80 g)"
+      ],
+      "steps": [
+        "Misture iogurte, leite, aveia e chia em um pote limpo.",
+        "Tampe e leve imediatamente à geladeira, a 4 °C ou menos, por 6-12 horas.",
+        "No momento de servir, acrescente o mamão lavado, descascado e cortado. Se necessário, ajuste a textura com 1 colher de sopa de leite."
+      ],
+      "utensils": "Pote com tampa de 400 ml e colher.",
+      "substitutions": "Troque o mamão por banana, morango ou manga (80 g). Use iogurte e leite sem lactose se necessário; isso não os torna adequados para alergia ao leite.",
+      "serving": "Consuma o pote como uma opção de café da manhã ou lanche.",
+      "storage": "Consumir em até 24 horas após montar. Manter refrigerado e adicionar a fruta perto do consumo. Não congelar.",
+      "allergens": "Leite; aveia pode conter glúten.",
+      "temperature": null,
+      "sourcePage": 8,
+      "yield": "1 pote / 1 porção"
+    },
+    {
+      "id": "receita-04",
+      "number": 4,
+      "name": "Vitamina de banana, cacau e aveia",
+      "meal": "Café da manhã",
+      "method": "Liquidificador",
+      "methods": [
+        "Liquidificador"
+      ],
+      "prepTime": "5 min",
+      "cookTime": "Sem cocção",
+      "ingredients": [
+        "1 banana pequena sem casca (80 g)",
+        "200 ml de leite",
+        "2 colheres de sopa de aveia (20 g)",
+        "1 colher de chá de cacau em pó (3 g)",
+        "Canela a gosto, opcional"
+      ],
+      "steps": [
+        "Coloque o leite no liquidificador. Acrescente banana, aveia e cacau.",
+        "Bata por 30-60 segundos até ficar uniforme. Se necessário, junte um pouco de água para ajustar a consistência.",
+        "Sirva logo após preparar. Não é necessário acrescentar açúcar; prove antes de ajustar o sabor."
+      ],
+      "utensils": "Liquidificador e copo de 400 ml.",
+      "substitutions": "Use leite sem lactose ou bebida de soja sem açúcar. Outras bebidas vegetais podem ter menos proteína. Troque a banana por mamão (100 g), se preferir.",
+      "serving": "Se desejar uma refeição com parte sólida, acompanhe com torrada e ovo ou ricota.",
+      "storage": "Preferir consumo imediato. Se necessário, manter em pote fechado na geladeira por até 24 horas; misturar antes de beber.",
+      "allergens": "Leite; aveia pode conter glúten. A versão com bebida de soja contém soja.",
+      "temperature": null,
+      "sourcePage": 9,
+      "yield": "1 copo grande / 1 porção"
+    },
+    {
+      "id": "receita-05",
+      "number": 5,
+      "name": "Muffin de banana e aveia",
+      "meal": "Café da manhã",
+      "method": "Forno",
+      "methods": [
+        "Forno"
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20-25 min a 180 °C",
+      "ingredients": [
+        "2 bananas maduras sem casca (160 g)",
+        "2 ovos",
+        "1 xícara de farinha de aveia (100 g)",
+        "1/3 de xícara de leite (80 ml)",
+        "1 colher de sopa de azeite (15 ml)",
+        "1 colher de chá de fermento químico (5 g)",
+        "1 colher de chá de canela"
+      ],
+      "steps": [
+        "Preaqueça o forno a 180 °C. Unte as forminhas ou use formas de silicone próprias para assar.",
+        "Amasse as bananas e misture ovos, leite e azeite. Incorpore aveia e canela.",
+        "Acrescente o fermento por último. Divida entre 6 forminhas, preenchendo até 2/3.",
+        "Asse por 20-25 minutos. O centro deve estar firme e o palito sair sem massa crua. Espere amornar para desenformar."
+      ],
+      "utensils": "Tigela, garfo e 6 forminhas próprias para forno.",
+      "substitutions": "Use leite sem lactose ou bebida vegetal. Troque a canela por raspas de laranja. Mudanças na farinha alteram a textura e precisam de ajuste.",
+      "serving": "Sirva 2 unidades com iogurte ou queijo branco, conforme a refeição.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias, em porções.",
+      "allergens": "Ovos, leite; aveia pode conter glúten.",
+      "temperature": "180 °C",
+      "sourcePage": 10,
+      "yield": "6 muffins / 3 porções de 2 unidades"
+    },
+    {
+      "id": "receita-06",
+      "number": 6,
+      "name": "Cestinhas de ovos e ricota",
+      "meal": "Café da manhã",
+      "method": "Air fryer",
+      "methods": [
+        "Air fryer"
+      ],
+      "prepTime": "8 min",
+      "cookTime": "10-15 min a 160 °C",
+      "ingredients": [
+        "2 ovos",
+        "3 colheres de sopa de ricota esfarelada (60 g)",
+        "2 colheres de sopa de tomate picado (30 g)",
+        "1 colher de sopa de cenoura ralada (10 g)",
+        "1/2 colher de chá de azeite (2,5 ml)",
+        "1 pitada de sal e cheiro-verde"
+      ],
+      "steps": [
+        "Unte os recipientes e verifique se cabem no cesto, com espaço para o ar circular.",
+        "Bata os ovos, misture ricota, tomate, cenoura e temperos. Distribua até 2/3 da altura.",
+        "Leve à air fryer a 160 °C por 10-15 minutos. O centro deve firmar e atingir 71 °C.",
+        "Retire com luvas e apoie em superfície resistente ao calor. Aguarde 2 minutos antes de servir."
+      ],
+      "utensils": "2 ramequins de 150 ml ou formas de silicone próprias para air fryer.",
+      "substitutions": "Substitua a ricota por cottage escorrido (60 g). Para fazer no forno: 180 °C por cerca de 15-20 minutos, conferindo o ponto.",
+      "serving": "Combine com uma fruta e pão ou torrada.",
+      "storage": "Refrigerar por até 2 dias. Reaquecer até 74 °C no centro.",
+      "allergens": "Ovos e leite.",
+      "temperature": "160 °C",
+      "sourcePage": 11,
+      "yield": "2 cestinhas / 1 porção"
+    },
+    {
+      "id": "receita-07",
+      "number": 7,
+      "name": "Tapioca de queijo e tomate",
+      "meal": "Café da manhã",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "5 min",
+      "cookTime": "4-5 min",
+      "ingredients": [
+        "4 colheres de sopa de goma de tapioca hidratada (60 g)",
+        "2 fatias de queijo minas frescal (50 g)",
+        "1/2 tomate picado (60 g)",
+        "Orégano a gosto"
+      ],
+      "steps": [
+        "Espalhe a goma uniformemente na frigideira seca, em fogo médio-baixo. Use goma já hidratada própria para tapioca.",
+        "Aguarde 1-2 minutos até formar um disco e soltar do fundo.",
+        "Adicione queijo, tomate e orégano em metade do disco. Dobre e aqueça por mais 2 minutos. Sirva em seguida."
+      ],
+      "utensils": "Frigideira antiaderente de 20 cm e espátula.",
+      "substitutions": "Troque o queijo por frango já cozido e desfiado (60 g), com 1 colher de sopa de ricota para dar umidade.",
+      "serving": "Acompanhe com fruta. O recheio pode variar conforme preferência e disponibilidade.",
+      "storage": "Melhor consumir na hora. Se sobrar, refrigerar por até 24 horas e reaquecer em frigideira.",
+      "allergens": "Leite na versão com queijo ou ricota.",
+      "temperature": null,
+      "sourcePage": 12,
+      "yield": "1 tapioca / 1 porção"
+    },
+    {
+      "id": "receita-08",
+      "number": 8,
+      "name": "Cuscuz com ovos mexidos",
+      "meal": "Café da manhã",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "8 min + 10 min de hidratação",
+      "cookTime": "8-10 min",
+      "ingredients": [
+        "1/2 xícara de flocão de milho (50 g)",
+        "4 colheres de sopa de água (60 ml), ajustáveis",
+        "2 ovos",
+        "1 colher de chá de azeite (5 ml)",
+        "1 pitada de sal e cheiro-verde"
+      ],
+      "steps": [
+        "Misture flocão, água e metade do sal. A mistura deve ficar úmida e solta. Deixe hidratar por 10 minutos.",
+        "Coloque água na base da cuscuzeira, sem encostar no cesto. Adicione o flocão sem apertar.",
+        "Cozinhe tampado por 8-10 minutos após começar o vapor.",
+        "Na frigideira com azeite, mexa os ovos com sal em fogo baixo até firmarem, sem partes líquidas. Sirva sobre o cuscuz."
+      ],
+      "utensils": "Cuscuzeira, tigela e frigideira.",
+      "substitutions": "No lugar dos ovos, use 80 g de frango já cozido e desfiado, bem aquecido. Varie o cheiro-verde com salsinha ou cebolinha.",
+      "serving": "Complete com tomate ou uma fruta.",
+      "storage": "Refrigerar o cuscuz e os ovos por até 2 dias em pote fechado. Reaquecer até 74 °C.",
+      "allergens": "Ovos; conferir o rótulo do flocão para possíveis traços de glúten.",
+      "temperature": null,
+      "sourcePage": 13,
+      "yield": "1 prato / 1 porção"
+    },
+    {
+      "id": "receita-09",
+      "number": 9,
+      "name": "Bolinho de batata-doce e ricota",
+      "meal": "Café da manhã",
+      "method": "Air fryer",
+      "methods": [
+        "Air fryer"
+      ],
+      "prepTime": "15 min, com batata cozida",
+      "cookTime": "12-16 min a 180 °C",
+      "ingredients": [
+        "1 xícara de batata-doce cozida e amassada (200 g)",
+        "1/2 xícara de ricota esfarelada (100 g)",
+        "4 colheres de sopa de farinha de aveia (40 g)",
+        "1 colher de chá de azeite (5 ml)",
+        "1 pitada de sal e orégano"
+      ],
+      "steps": [
+        "Use a batata já fria e sem excesso de água. Misture com ricota, aveia e temperos.",
+        "Se necessário, junte mais 1 colher de sopa de aveia para modelar. Forme 6 discos com cerca de 1,5 cm de altura.",
+        "Pincele com azeite. Distribua no cesto sem empilhar, deixando espaço entre eles.",
+        "Asse a 180 °C por 12-16 minutos, virando com cuidado na metade. Devem firmar e dourar por fora."
+      ],
+      "utensils": "Tigela, garfo e cesto da air fryer.",
+      "substitutions": "Troque a ricota por frango cozido e desfiado (100 g). No forno, asse a 200 °C por cerca de 20-25 minutos, virando na metade.",
+      "serving": "Sirva com fruta e iogurte ou outra combinação do café da manhã.",
+      "storage": "Refrigerar por até 2 dias ou congelar por até 30 dias. Reaquecer bem antes de consumir.",
+      "allergens": "Leite; aveia pode conter glúten.",
+      "temperature": "180 °C",
+      "sourcePage": 14,
+      "yield": "6 bolinhos / 3 porções de 2 unidades"
+    },
+    {
+      "id": "receita-10",
+      "number": 10,
+      "name": "Iogurte com frutas e sementes",
+      "meal": "Café da manhã",
+      "method": "Sem cozimento",
+      "methods": [
+        "Sem cozimento"
+      ],
+      "prepTime": "5 min",
+      "cookTime": "Sem cocção",
+      "ingredients": [
+        "1 pote de iogurte natural (170 g)",
+        "1/2 xícara de mamão em cubos (80 g)",
+        "1/2 banana em rodelas (40 g)",
+        "2 colheres de sopa de aveia (20 g)",
+        "1 colher de chá de chia (5 g)"
+      ],
+      "steps": [
+        "Lave a fruta antes de descascar e cortar. Coloque o iogurte na tigela.",
+        "Distribua mamão, banana, aveia e chia.",
+        "Misture na hora de comer. Para levar, mantenha refrigerado e adicione a aveia no momento de servir se quiser preservar a textura."
+      ],
+      "utensils": "Tigela, faca e colher.",
+      "substitutions": "Troque as frutas por morango, manga ou pera no mesmo peso total. Troque a chia por linhaça moída (5 g).",
+      "serving": "Use como café da manhã ou lanche. Pode acompanhar uma torrada com ricota.",
+      "storage": "Preferir consumo imediato; refrigerar por até 24 horas. Não congelar a tigela pronta.",
+      "allergens": "Leite; aveia pode conter glúten.",
+      "temperature": null,
+      "sourcePage": 15,
+      "yield": "1 tigela / 1 porção"
+    },
+    {
+      "id": "receita-11",
+      "number": 11,
+      "name": "Frango de frigideira com ervas",
+      "meal": "Almoço",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "10 min",
+      "cookTime": "10-14 min",
+      "ingredients": [
+        "2 filés de peito de frango crus (300 g no total), com 1,5 cm de espessura",
+        "2 colheres de chá de azeite (10 ml)",
+        "1 colher de sopa de suco de limão (15 ml)",
+        "1 dente de alho picado (3 g)",
+        "1/4 de colher de chá de sal",
+        "Orégano e páprica a gosto"
+      ],
+      "steps": [
+        "Tempere o frango com limão, alho, sal e ervas. Não lave o frango cru.",
+        "Aqueça o azeite em fogo médio. Disponha os filés sem sobrepor.",
+        "Cozinhe por cerca de 5-7 minutos de cada lado. Se dourar cedo, reduza o fogo e tampe.",
+        "Confira 74 °C no centro da parte mais grossa. O tempo varia com a espessura; continue cozinhando se necessário."
+      ],
+      "utensils": "Frigideira, pinça e termômetro culinário.",
+      "substitutions": "Use sobrecoxa desossada, sem pele e de espessura semelhante; o tempo pode aumentar. Mantenha a meta interna de 74 °C.",
+      "serving": "Sirva com arroz, feijão e legumes ou salada. O filé é parte da refeição, não o prato completo.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias. Reaquecer a 74 °C.",
+      "allergens": "Sem leite, ovos ou trigo adicionados; conferir temperos industrializados.",
+      "temperature": null,
+      "sourcePage": 16,
+      "yield": "2 filés / 2 porções"
+    },
+    {
+      "id": "receita-12",
+      "number": 12,
+      "name": "Peixe assado com limão e legumes",
+      "meal": "Almoço",
+      "method": "Forno",
+      "methods": [
+        "Forno"
+      ],
+      "prepTime": "12 min",
+      "cookTime": "25-30 min a 200 °C",
+      "ingredients": [
+        "2 filés de tilápia crus (300 g no total)",
+        "1 abobrinha pequena em meias-luas (150 g)",
+        "1 cenoura pequena em fatias finas (80 g)",
+        "1/2 cebola em tiras (50 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1 colher de sopa de suco de limão (15 ml)",
+        "1/4 de colher de chá de sal e ervas"
+      ],
+      "steps": [
+        "Preaqueça o forno a 200 °C. Misture cenoura e cebola com metade do azeite e asse por 10 minutos.",
+        "Tempere o peixe com limão, sal e ervas.",
+        "Junte abobrinha e filés à assadeira; distribua o azeite restante. Asse por mais 15-20 minutos.",
+        "Confira 63 °C no centro do peixe. Os legumes devem estar macios; retire o peixe se ficar pronto antes deles."
+      ],
+      "utensils": "Assadeira de cerca de 25 x 20 cm e termômetro culinário.",
+      "substitutions": "Troque a tilápia por pescada de espessura semelhante. Use vagem fina no lugar da abobrinha; confira o ponto dos legumes.",
+      "serving": "Acompanhe com arroz, batata ou mandioca e uma leguminosa, conforme a refeição.",
+      "storage": "Refrigerar por até 2 dias ou congelar por até 30 dias. Reaquecer a 74 °C.",
+      "allergens": "Peixe.",
+      "temperature": "200 °C",
+      "sourcePage": 17,
+      "yield": "2 porções"
+    },
+    {
+      "id": "receita-13",
+      "number": 13,
+      "name": "Almôndegas caseiras de patinho",
+      "meal": "Almoço",
+      "method": "Air fryer",
+      "methods": [
+        "Air fryer"
+      ],
+      "prepTime": "15 min",
+      "cookTime": "12-16 min a 180 °C",
+      "ingredients": [
+        "400 g de patinho moído cru",
+        "1/2 cebola bem picada (50 g)",
+        "3 colheres de sopa de aveia fina (30 g)",
+        "2 colheres de sopa de água (30 ml)",
+        "1 dente de alho picado",
+        "1 colher de chá de azeite (5 ml)",
+        "1/4 de colher de chá de sal e salsinha"
+      ],
+      "steps": [
+        "Misture carne, cebola, aveia, água, alho e temperos. Amasse apenas até unir.",
+        "Modele 12 bolinhas de tamanho parecido, com cerca de 3 cm. Pincele com azeite.",
+        "Distribua no cesto, sem empilhar. Asse a 180 °C por 12-16 minutos e vire na metade.",
+        "Confira 71 °C no centro das maiores unidades. Faça outra leva se o cesto ficar cheio."
+      ],
+      "utensils": "Tigela, cesto da air fryer e termômetro culinário.",
+      "substitutions": "Use outra carne bovina magra moída. Se optar por frango moído, a meta interna passa a ser 74 °C. No forno: 200 °C por cerca de 20-25 minutos.",
+      "serving": "Sirva com molho de tomate aquecido, arroz ou macarrão e legumes.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias. Reaquecer a 74 °C.",
+      "allergens": "Aveia pode conter glúten.",
+      "temperature": "180 °C",
+      "sourcePage": 18,
+      "yield": "12 almôndegas / 3 porções de 4 unidades"
+    },
+    {
+      "id": "receita-14",
+      "number": 14,
+      "name": "Hambúrguer de lentilha e cenoura",
+      "meal": "Almoço",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "15 min, com lentilha cozida",
+      "cookTime": "10-12 min",
+      "ingredients": [
+        "1 e 1/2 xícara de lentilha cozida e escorrida (250 g)",
+        "1/2 cenoura ralada (40 g)",
+        "1/4 de cebola picada (25 g)",
+        "1/2 xícara de farinha de aveia (50 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1/4 de colher de chá de sal, cominho e salsinha"
+      ],
+      "steps": [
+        "Escorra muito bem a lentilha. Amasse com garfo, deixando alguns grãos inteiros.",
+        "Misture cenoura, cebola, aveia e temperos. Deixe descansar por 5 minutos.",
+        "Modele 4 discos com cerca de 1,5 cm de altura. Se a mistura estiver molhada, junte 1 colher de sopa de aveia.",
+        "Aqueça o azeite em fogo médio-baixo e doure por 5-6 minutos de cada lado, até firmar e aquecer o centro."
+      ],
+      "utensils": "Tigela, garfo e frigideira antiaderente.",
+      "substitutions": "Use feijão cozido bem escorrido no mesmo peso. Pode substituir a aveia por farinha de rosca; nesse caso, contém trigo.",
+      "serving": "Combine com arroz e salada ou use em um sanduíche com folhas e tomate.",
+      "storage": "Refrigerar por até 3 dias ou congelar os discos prontos por até 30 dias. Reaquecer bem.",
+      "allergens": "Aveia pode conter glúten; trigo se usar farinha de rosca.",
+      "temperature": null,
+      "sourcePage": 19,
+      "yield": "4 hambúrgueres / 2 porções de 2 unidades"
+    },
+    {
+      "id": "receita-15",
+      "number": 15,
+      "name": "Salada de grão-de-bico e quinoa",
+      "meal": "Almoço",
+      "method": "Fogão + montagem",
+      "methods": [
+        "Fogão",
+        "Montagem"
+      ],
+      "prepTime": "15 min",
+      "cookTime": "15 min + resfriamento",
+      "ingredients": [
+        "1/3 de xícara de quinoa crua (60 g)",
+        "3/4 de xícara de água (180 ml)",
+        "1 xícara de grão-de-bico cozido e escorrido (160 g)",
+        "1 tomate picado (120 g)",
+        "1/2 pepino picado (100 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1 colher de sopa de suco de limão (15 ml)",
+        "Salsinha e sal a gosto"
+      ],
+      "steps": [
+        "Lave a quinoa em peneira fina. Cozinhe com a água em fogo baixo, tampada, por cerca de 15 minutos, até absorver o líquido.",
+        "Transfira para recipiente raso e leve à geladeira para resfriar; não deixe por horas sobre a bancada.",
+        "Misture quinoa fria, grão-de-bico, tomate e pepino higienizados.",
+        "Tempere com azeite, limão, salsinha e uma pitada de sal perto do consumo."
+      ],
+      "utensils": "Panela pequena, peneira, tigela e faca.",
+      "substitutions": "Troque a quinoa por arroz integral já cozido (180 g) e o grão-de-bico por feijão-fradinho cozido (160 g).",
+      "serving": "Sirva com folhas. Pode ser acompanhada de tofu ou ovo bem cozido conforme a composição da refeição.",
+      "storage": "Refrigerar por até 2 dias; prefira adicionar pepino e tempero na hora. Não congelar a salada pronta.",
+      "allergens": "Sem alérgenos principais adicionados; verificar rótulos e contaminação cruzada.",
+      "temperature": null,
+      "sourcePage": 20,
+      "yield": "2 porções"
+    },
+    {
+      "id": "receita-16",
+      "number": 16,
+      "name": "Arroz de panela com frango e legumes",
+      "meal": "Almoço",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "15 min",
+      "cookTime": "25-30 min",
+      "ingredients": [
+        "300 g de peito de frango cru em cubos de 2 cm",
+        "3/4 de xícara de arroz cru (150 g)",
+        "1 cenoura pequena em cubos (80 g)",
+        "1/2 xícara de ervilha congelada (70 g)",
+        "1/2 cebola picada (50 g)",
+        "1 dente de alho",
+        "1 colher de sopa de azeite (15 ml)",
+        "2 xícaras de água quente (480 ml), mais se necessário",
+        "1/2 colher de chá rasa de sal e cheiro-verde"
+      ],
+      "steps": [
+        "Aqueça o azeite. Refogue cebola e alho por 2 minutos. Junte o frango e doure por cerca de 5 minutos.",
+        "Acrescente arroz e cenoura. Mexa, junte água e sal e deixe ferver.",
+        "Abaixe o fogo e cozinhe com a tampa entreaberta por 15-20 minutos. Junte a ervilha nos últimos 5 minutos.",
+        "Confira se o arroz está macio e o frango atingiu 74 °C. Se preciso, acrescente água e cozinhe mais. Deixe repousar 5 minutos."
+      ],
+      "utensils": "Panela com tampa, tábua separada para frango e termômetro.",
+      "substitutions": "Troque a ervilha por milho ou brócolis picado. Arroz integral exige mais água e tempo; não mantenha o mesmo tempo desta versão.",
+      "serving": "Sirva com salada e, se desejar, feijão preparado à parte.",
+      "storage": "Refrigerar rapidamente em recipiente raso por até 2 dias ou congelar por até 30 dias. Reaquecer a 74 °C.",
+      "allergens": "Sem leite, ovos ou trigo adicionados.",
+      "temperature": null,
+      "sourcePage": 21,
+      "yield": "3 porções"
+    },
+    {
+      "id": "receita-17",
+      "number": 17,
+      "name": "Abobrinha recheada com carne",
+      "meal": "Almoço",
+      "method": "Forno + fogão",
+      "methods": [
+        "Forno",
+        "Fogão"
+      ],
+      "prepTime": "20 min",
+      "cookTime": "20-25 min a 200 °C",
+      "ingredients": [
+        "2 abobrinhas médias (500 g)",
+        "300 g de patinho moído cru",
+        "1/2 cebola picada (50 g)",
+        "1/2 xícara de molho de tomate (120 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "2 colheres de sopa de queijo ralado (20 g), opcional",
+        "1/4 de colher de chá de sal e orégano"
+      ],
+      "steps": [
+        "Preaqueça o forno a 200 °C. Corte as abobrinhas ao meio no comprimento. Retire parte da polpa e pique.",
+        "Refogue a cebola no azeite. Junte a carne e mexa por 8-10 minutos. Acrescente polpa, molho e temperos; cozinhe mais 5 minutos. A carne deve atingir 71 °C.",
+        "Recheie as metades. Coloque em assadeira com 3 colheres de sopa de água no fundo; cubra com papel-alumínio por 15 minutos.",
+        "Retire o papel, acrescente queijo se usar e asse mais 5-10 minutos. Confira abobrinha macia e recheio bem quente, a 74 °C."
+      ],
+      "utensils": "Panela, assadeira e colher.",
+      "substitutions": "Use frango já cozido e desfiado ou lentilha cozida e escorrida (300 g) no lugar da carne. Omitir o queijo retira o leite adicionado.",
+      "serving": "Sirva com arroz e feijão ou outra combinação de acompanhamento.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias. Reaquecer a 74 °C.",
+      "allergens": "Leite se usar queijo; verificar o molho.",
+      "temperature": "200 °C",
+      "sourcePage": 22,
+      "yield": "4 metades / 2 porções"
+    },
+    {
+      "id": "receita-18",
+      "number": 18,
+      "name": "Tiras de lombo com pimentões",
+      "meal": "Almoço",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "12 min",
+      "cookTime": "12-15 min + 3 min de descanso",
+      "ingredients": [
+        "300 g de lombo suíno cru em tiras de 1,5 cm",
+        "1 pimentão pequeno em tiras (120 g)",
+        "1/2 cebola em tiras (50 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1 dente de alho picado",
+        "1 colher de sopa de suco de limão (15 ml)",
+        "1/4 de colher de chá de sal e páprica"
+      ],
+      "steps": [
+        "Tempere o lombo com sal, alho e páprica.",
+        "Aqueça o azeite em fogo médio. Doure as tiras por 6-8 minutos, mexendo e virando. Trabalhe em duas levas se necessário.",
+        "Junte pimentão e cebola e cozinhe por mais 5-7 minutos. Confira pelo menos 63 °C na carne.",
+        "Desligue, acrescente limão e aguarde 3 minutos de descanso antes de servir."
+      ],
+      "utensils": "Frigideira larga, pinça e termômetro culinário.",
+      "substitutions": "Troque o pimentão por abobrinha em tiras. Se usar frango no lugar do lombo, cozinhe até 74 °C e ajuste o tempo.",
+      "serving": "Combine com arroz, feijão e salada ou batata cozida e legumes.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias. Reaquecer a 74 °C.",
+      "allergens": "Sem leite, ovos ou trigo adicionados.",
+      "temperature": null,
+      "sourcePage": 23,
+      "yield": "2 porções"
+    },
+    {
+      "id": "receita-19",
+      "number": 19,
+      "name": "Tofu com brócolis e cenoura",
+      "meal": "Almoço",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "15 min",
+      "cookTime": "12-15 min",
+      "ingredients": [
+        "300 g de tofu firme escorrido em cubos",
+        "2 xícaras de brócolis em floretes (160 g)",
+        "1 cenoura pequena em fatias finas (80 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1 colher de sopa de shoyu com menos sódio (15 ml)",
+        "1 dente de alho picado",
+        "3 colheres de sopa de água (45 ml)",
+        "1 colher de chá de gengibre ralado, opcional"
+      ],
+      "steps": [
+        "Envolva o tofu em papel-toalha limpo e pressione levemente para retirar água.",
+        "Cozinhe brócolis e cenoura no vapor por 4-6 minutos, até ficarem tenros.",
+        "Aqueça o azeite na frigideira. Doure o tofu por 6-8 minutos, virando os cubos.",
+        "Junte alho, gengibre, legumes, shoyu e água. Mexa por 2-3 minutos e sirva bem quente."
+      ],
+      "utensils": "Frigideira antiaderente e panela pequena.",
+      "substitutions": "Use couve-flor no lugar do brócolis. Shoyu pode ser trocado por limão e ervas; ajuste o sal só após provar.",
+      "serving": "Sirva com arroz e uma leguminosa. O tofu não tem equivalência automática com a mesma porção de carne.",
+      "storage": "Refrigerar por até 2 dias. Reaquecer bem; não congelar se quiser preservar a textura original.",
+      "allergens": "Soja; shoyu convencional pode conter trigo.",
+      "temperature": null,
+      "sourcePage": 24,
+      "yield": "2 porções"
+    },
+    {
+      "id": "receita-20",
+      "number": 20,
+      "name": "Batata, grão-de-bico e legumes assados",
+      "meal": "Almoço",
+      "method": "Forno",
+      "methods": [
+        "Forno"
+      ],
+      "prepTime": "15 min",
+      "cookTime": "35-45 min a 200 °C",
+      "ingredients": [
+        "2 batatas médias em cubos de 2 cm (300 g)",
+        "1 e 1/2 xícara de grão-de-bico cozido e escorrido (240 g)",
+        "1 abobrinha em cubos (150 g)",
+        "1 cenoura em rodelas finas (80 g)",
+        "1 colher de sopa de azeite (15 ml)",
+        "1/2 colher de chá de páprica",
+        "1/4 de colher de chá de sal e alecrim"
+      ],
+      "steps": [
+        "Preaqueça o forno a 200 °C. Misture batata e cenoura com metade do azeite e dos temperos.",
+        "Espalhe em camada única e asse por 20 minutos.",
+        "Junte abobrinha e grão-de-bico com o restante do azeite. Misture e asse mais 15-25 minutos, virando uma vez.",
+        "Confira batatas macias ao perfurar com garfo. Evite lotar a assadeira para permitir que os alimentos assem por igual."
+      ],
+      "utensils": "Assadeira grande e tigela.",
+      "substitutions": "Use batata-doce em cubos no lugar da batata. Troque a abobrinha por couve-flor em floretes pequenos; confira o ponto.",
+      "serving": "Combine com folhas e, conforme a refeição, tofu, frango ou ovos bem cozidos.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias; a textura dos legumes pode mudar. Reaquecer bem.",
+      "allergens": "Sem alérgenos principais adicionados; conferir temperos.",
+      "temperature": "200 °C",
+      "sourcePage": 25,
+      "yield": "3 porções"
+    },
+    {
+      "id": "receita-21",
+      "number": 21,
+      "name": "Sanduíche de frango e cenoura",
+      "meal": "Café da tarde",
+      "method": "Sem cocção adicional",
+      "methods": [
+        "Sem cocção adicional"
+      ],
+      "prepTime": "10 min, com frango cozido",
+      "cookTime": "Sem cocção adicional",
+      "ingredients": [
+        "4 fatias de pão integral (100 g)",
+        "150 g de frango já cozido, frio e desfiado",
+        "3 colheres de sopa de iogurte natural (45 g)",
+        "1/2 cenoura ralada (40 g)",
+        "4 folhas de alface higienizadas",
+        "1 pitada de sal e salsinha"
+      ],
+      "steps": [
+        "Misture frango, iogurte, cenoura, sal e salsinha. Use frango cozido até 74 °C e refrigerado corretamente.",
+        "Divida o recheio entre dois sanduíches. Acrescente alface bem seca e feche.",
+        "Sirva ou mantenha refrigerado até consumir. Para transportar, use bolsa térmica com gelo reutilizável."
+      ],
+      "utensils": "Tigela, garfo e faca.",
+      "substitutions": "Troque o frango por atum escorrido (150 g). Substitua o iogurte por ricota amassada com um pouco de água.",
+      "serving": "Pode acompanhar uma fruta. O recheio também pode ser usado em pão tipo wrap.",
+      "storage": "Refrigerar por até 24 horas, contando a idade do frango. Não congelar com folhas.",
+      "allergens": "Trigo e leite; peixe se usar atum.",
+      "temperature": null,
+      "sourcePage": 26,
+      "yield": "2 sanduíches / 2 porções"
+    },
+    {
+      "id": "receita-22",
+      "number": 22,
+      "name": "Homus com pão e cenoura",
+      "meal": "Café da tarde",
+      "method": "Processador ou liquidificador",
+      "methods": [
+        "Processador",
+        "Liquidificador"
+      ],
+      "prepTime": "10 min, com grão-de-bico cozido",
+      "cookTime": "Sem cocção adicional",
+      "ingredients": [
+        "1 e 1/2 xícara de grão-de-bico cozido (240 g)",
+        "1 colher de sopa de tahine (15 g), opcional",
+        "1 colher de sopa de suco de limão (15 ml)",
+        "1 colher de sopa de azeite (15 ml)",
+        "4-6 colheres de sopa de água (60-90 ml)",
+        "1/2 dente de alho e sal a gosto",
+        "4 fatias de pão integral (100 g)",
+        "1 cenoura em palitos (80 g)"
+      ],
+      "steps": [
+        "Bata grão-de-bico, limão, azeite, alho e tahine, se usar.",
+        "Acrescente água aos poucos até formar pasta. Raspe as laterais somente com o aparelho desligado.",
+        "Ajuste o sal. Divida em 4 porções; sirva cada uma com pão e cenoura higienizada."
+      ],
+      "utensils": "Processador ou liquidificador e espátula.",
+      "substitutions": "Omita o tahine e ajuste a água para uma versão sem gergelim adicionado. Use pepino no lugar da cenoura.",
+      "serving": "Use também como recheio de sanduíches ou acompanhamento de legumes.",
+      "storage": "Refrigerar a pasta por até 3 dias ou congelar por até 30 dias. Guardar pão e legumes separados.",
+      "allergens": "Gergelim se usar tahine; trigo no pão.",
+      "temperature": null,
+      "sourcePage": 27,
+      "yield": "4 porções"
+    },
+    {
+      "id": "receita-23",
+      "number": 23,
+      "name": "Bolinho de maçã e canela",
+      "meal": "Café da tarde",
+      "method": "Air fryer",
+      "methods": [
+        "Air fryer"
+      ],
+      "prepTime": "10 min",
+      "cookTime": "12-18 min a 160 °C",
+      "ingredients": [
+        "1 maçã pequena ralada, sem sementes (100 g)",
+        "1 ovo",
+        "6 colheres de sopa de farinha de aveia (60 g)",
+        "4 colheres de sopa de leite (60 ml)",
+        "1 colher de chá de azeite (5 ml)",
+        "1 colher de chá rasa de fermento químico (4 g)",
+        "1/2 colher de chá de canela"
+      ],
+      "steps": [
+        "Misture ovo, leite, azeite e maçã. Junte aveia e canela.",
+        "Incorpore o fermento por último. Distribua nas formas untadas até 2/3 da altura.",
+        "Disponha no cesto com espaço entre as formas. Asse a 160 °C por 12-18 minutos.",
+        "O centro deve estar firme e sem massa crua. Se dourar cedo, reduza a temperatura e prolongue o preparo."
+      ],
+      "utensils": "Tigela e 4 forminhas próprias para air fryer.",
+      "substitutions": "Use pera no lugar da maçã. Use leite sem lactose ou bebida vegetal. No forno: 180 °C por cerca de 20-25 minutos.",
+      "serving": "Combine com iogurte natural ou queijo branco.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias.",
+      "allergens": "Ovos e leite; aveia pode conter glúten.",
+      "temperature": "160 °C",
+      "sourcePage": 28,
+      "yield": "4 bolinhos / 2 porções de 2 unidades"
+    },
+    {
+      "id": "receita-24",
+      "number": 24,
+      "name": "Panqueca salgada de atum",
+      "meal": "Café da tarde",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "8 min",
+      "cookTime": "8-10 min",
+      "ingredients": [
+        "1 ovo",
+        "3 colheres de sopa de farinha de aveia (30 g)",
+        "3 colheres de sopa de água (45 ml)",
+        "1/2 lata de atum escorrido (60 g)",
+        "2 colheres de sopa de tomate picado (30 g)",
+        "1 colher de chá de azeite (5 ml)",
+        "Orégano e 1 pitada de sal"
+      ],
+      "steps": [
+        "Misture ovo, aveia e água. Incorpore atum, tomate e temperos.",
+        "Unte a frigideira e aqueça em fogo baixo. Divida a massa em dois discos.",
+        "Cozinhe por 4-5 minutos de cada lado, até firmar e cozinhar por dentro; referência para preparos com ovos: 71 °C."
+      ],
+      "utensils": "Tigela e frigideira antiaderente.",
+      "substitutions": "Troque atum por frango já cozido e desfiado (60 g) e tomate por cenoura ralada fina (30 g).",
+      "serving": "Sirva com folhas ou uma fruta, conforme a composição do lanche.",
+      "storage": "Refrigerar por até 2 dias. Reaquecer a 74 °C no centro.",
+      "allergens": "Ovos e peixe; aveia pode conter glúten.",
+      "temperature": null,
+      "sourcePage": 29,
+      "yield": "2 panquecas / 1 porção"
+    },
+    {
+      "id": "receita-25",
+      "number": 25,
+      "name": "Creme de iogurte, cacau e banana",
+      "meal": "Café da tarde",
+      "method": "Sem cozimento",
+      "methods": [
+        "Sem cozimento"
+      ],
+      "prepTime": "5 min",
+      "cookTime": "20 min de geladeira, opcional",
+      "ingredients": [
+        "1 pote de iogurte natural (170 g)",
+        "1 banana madura sem casca (80 g)",
+        "1 colher de sopa de cacau em pó (6 g)",
+        "2 colheres de sopa de aveia fina (20 g)",
+        "1 colher de chá de chia (5 g)"
+      ],
+      "steps": [
+        "Amasse a banana até formar um purê.",
+        "Misture iogurte, cacau, aveia e chia até uniformizar.",
+        "Divida em dois potinhos. Sirva ou leve à geladeira por 20 minutos para engrossar."
+      ],
+      "utensils": "Tigela, garfo e colher.",
+      "substitutions": "Use manga madura amassada (80 g) no lugar da banana e omita o cacau. Pode usar iogurte sem lactose.",
+      "serving": "Se desejar, acompanhe com torrada e ricota.",
+      "storage": "Manter refrigerado e consumir em até 24 horas. Não congelar para preservar a textura.",
+      "allergens": "Leite; aveia pode conter glúten.",
+      "temperature": null,
+      "sourcePage": 30,
+      "yield": "2 potinhos / 2 porções"
+    },
+    {
+      "id": "receita-26",
+      "number": 26,
+      "name": "Palitos de batata-doce com molho",
+      "meal": "Café da tarde",
+      "method": "Air fryer",
+      "methods": [
+        "Air fryer"
+      ],
+      "prepTime": "12 min",
+      "cookTime": "15-22 min a 180 °C",
+      "ingredients": [
+        "1 batata-doce média em palitos de 1 cm (250 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1/4 de colher de chá de sal e páprica",
+        "4 colheres de sopa de iogurte natural (60 g)",
+        "1 colher de chá de suco de limão (5 ml)",
+        "Salsinha a gosto"
+      ],
+      "steps": [
+        "Lave, corte e seque os palitos. Misture com azeite, sal e páprica.",
+        "Espalhe no cesto sem amontoar. Asse a 180 °C por 15-22 minutos, mexendo na metade. Faça duas levas se preciso.",
+        "Confira interior macio. Misture iogurte, limão e salsinha para fazer o molho e sirva frio, separado da batata."
+      ],
+      "utensils": "Tigela, faca e cesto da air fryer.",
+      "substitutions": "Use batata inglesa no mesmo peso, conferindo o ponto. Troque o molho por homus para uma alternativa sem leite.",
+      "serving": "Pode acompanhar ovo bem cozido ou queijo branco para compor o lanche.",
+      "storage": "Refrigerar a batata por até 2 dias e o molho por até 24 horas, separados. Reaquecer somente a batata.",
+      "allergens": "Leite no molho de iogurte.",
+      "temperature": "180 °C",
+      "sourcePage": 31,
+      "yield": "2 porções"
+    },
+    {
+      "id": "receita-27",
+      "number": 27,
+      "name": "Maçã assada com ricota e canela",
+      "meal": "Café da tarde",
+      "method": "Forno",
+      "methods": [
+        "Forno"
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20-25 min a 180 °C",
+      "ingredients": [
+        "1 maçã grande (180 g)",
+        "4 colheres de sopa de ricota esfarelada (80 g)",
+        "2 colheres de sopa de aveia (20 g)",
+        "1 colher de sopa de uvas-passas (15 g), opcional",
+        "1/2 colher de chá de canela",
+        "3 colheres de sopa de água (45 ml)"
+      ],
+      "steps": [
+        "Preaqueça o forno a 180 °C. Corte a maçã ao meio e retire sementes e parte do miolo, sem perfurar a casca.",
+        "Misture ricota, aveia, canela e passas, se usar. Recheie as cavidades.",
+        "Coloque na assadeira com a água no fundo. Asse por 20-25 minutos, até amaciar. Sirva morna, com cuidado com o recheio quente."
+      ],
+      "utensils": "Assadeira pequena, colher e tigela.",
+      "substitutions": "Use pera firme no lugar da maçã ou cottage escorrido (80 g) no lugar da ricota. As passas são opcionais.",
+      "serving": "Sirva uma metade por porção. Pode acompanhar iogurte natural.",
+      "storage": "Refrigerar por até 2 dias. Reaquecer bem. Não congelar para preservar a textura da fruta.",
+      "allergens": "Leite; aveia pode conter glúten.",
+      "temperature": "180 °C",
+      "sourcePage": 32,
+      "yield": "2 metades / 2 porções"
+    },
+    {
+      "id": "receita-28",
+      "number": 28,
+      "name": "Biscoitinhos de banana e aveia",
+      "meal": "Café da tarde",
+      "method": "Forno",
+      "methods": [
+        "Forno"
+      ],
+      "prepTime": "10 min",
+      "cookTime": "18-22 min a 180 °C",
+      "ingredients": [
+        "2 bananas maduras sem casca (160 g)",
+        "1 xícara de aveia fina (100 g)",
+        "1 colher de sopa de pasta de amendoim sem açúcar (15 g)",
+        "1/2 colher de chá de canela",
+        "1 colher de chá de azeite (5 ml) para untar"
+      ],
+      "steps": [
+        "Preaqueça o forno a 180 °C. Amasse as bananas e misture com aveia, pasta de amendoim e canela.",
+        "Deixe descansar por 5 minutos. Faça 12 montinhos na assadeira e achate até 0,5 cm.",
+        "Asse por 18-22 minutos, até firmar e dourar nas bordas. Espere esfriar para retirar. A textura é macia, não crocante."
+      ],
+      "utensils": "Tigela, garfo e assadeira untada.",
+      "substitutions": "Omita a pasta de amendoim e acrescente mais 1 colher de sopa de aveia. Varie o sabor com raspas de laranja.",
+      "serving": "Sirva com leite ou iogurte. Separe as unidades em porções para organizar a rotina.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias.",
+      "allergens": "Amendoim; aveia pode conter glúten.",
+      "temperature": "180 °C",
+      "sourcePage": 33,
+      "yield": "12 biscoitos / 4 porções de 3 unidades"
+    },
+    {
+      "id": "receita-29",
+      "number": 29,
+      "name": "Bolinhos de grão-de-bico e cenoura",
+      "meal": "Café da tarde",
+      "method": "Air fryer",
+      "methods": [
+        "Air fryer"
+      ],
+      "prepTime": "15 min, com grão-de-bico cozido",
+      "cookTime": "12-18 min a 180 °C",
+      "ingredients": [
+        "1 e 1/2 xícara de grão-de-bico cozido e escorrido (240 g)",
+        "1/2 cenoura ralada fina (40 g)",
+        "3 colheres de sopa de farinha de aveia (30 g)",
+        "1 colher de sopa de suco de limão (15 ml)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1/4 de colher de chá de sal, cominho e salsinha"
+      ],
+      "steps": [
+        "Amasse o grão-de-bico e misture com cenoura, aveia, limão e temperos.",
+        "Espere 5 minutos. Se necessário, junte 1 colher de sopa de água para unir. Modele 10 discos pequenos e pincele com azeite.",
+        "Asse a 180 °C por 12-18 minutos, sem empilhar, virando com cuidado na metade, até firmar e dourar."
+      ],
+      "utensils": "Tigela, garfo e cesto da air fryer.",
+      "substitutions": "Use feijão-branco bem escorrido no mesmo peso. No forno: 200 °C por cerca de 20-25 minutos.",
+      "serving": "Sirva com homus, molho de iogurte ou tomate em rodelas.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias. Reaquecer bem.",
+      "allergens": "Aveia pode conter glúten; leite se usar molho de iogurte.",
+      "temperature": "180 °C",
+      "sourcePage": 34,
+      "yield": "10 bolinhos / 2 porções de 5 unidades"
+    },
+    {
+      "id": "receita-30",
+      "number": 30,
+      "name": "Wrap de ovo e queijo branco",
+      "meal": "Café da tarde",
+      "method": "Fogão + montagem",
+      "methods": [
+        "Fogão",
+        "Montagem"
+      ],
+      "prepTime": "8 min",
+      "cookTime": "5-7 min",
+      "ingredients": [
+        "1 pão tipo wrap integral (40 g)",
+        "1 ovo",
+        "1 fatia de queijo minas frescal (30 g)",
+        "2 folhas de alface higienizadas",
+        "2 rodelas de tomate (30 g)",
+        "1/2 colher de chá de azeite (2,5 ml)",
+        "1 pitada de sal e orégano"
+      ],
+      "steps": [
+        "Bata o ovo com os temperos. Cozinhe no azeite em fogo baixo, mexendo até firmar e ficar sem partes líquidas.",
+        "Aqueça o wrap em frigideira seca por 20-30 segundos de cada lado.",
+        "Recheie com ovo, queijo, tomate e alface seca. Dobre as laterais e enrole. Sirva em seguida."
+      ],
+      "utensils": "Frigideira, tigela e espátula.",
+      "substitutions": "Troque o ovo por frango já cozido e desfiado (60 g) ou o queijo por ricota (30 g).",
+      "serving": "Pode acompanhar uma fruta. Para preparar antes, mantenha as folhas separadas.",
+      "storage": "Refrigerar por até 24 horas. Esfrie o ovo sob refrigeração antes de montar se não for consumir na hora.",
+      "allergens": "Trigo, ovos e leite.",
+      "temperature": null,
+      "sourcePage": 35,
+      "yield": "1 wrap / 1 porção"
+    },
+    {
+      "id": "receita-31",
+      "number": 31,
+      "name": "Sopa de abóbora com frango",
+      "meal": "Jantar",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "15 min",
+      "cookTime": "25-30 min",
+      "ingredients": [
+        "3 xícaras de abóbora descascada em cubos (500 g)",
+        "1 xícara de frango já cozido e desfiado (150 g)",
+        "1/2 cebola picada (50 g)",
+        "1 dente de alho",
+        "2 colheres de chá de azeite (10 ml)",
+        "3 xícaras de água (720 ml), ajustáveis",
+        "1/2 colher de chá rasa de sal e cheiro-verde"
+      ],
+      "steps": [
+        "Refogue cebola e alho no azeite por 2 minutos. Acrescente abóbora e água e cozinhe por 20-25 minutos, até amaciar.",
+        "Desligue e amasse com garfo ou use mixer. Para bater no liquidificador, espere amornar e siga as instruções do aparelho para líquidos quentes.",
+        "Volte à panela, junte frango e temperos e aqueça por mais 5 minutos, mexendo, até 74 °C. Ajuste a água."
+      ],
+      "utensils": "Panela e mixer ou liquidificador adequado.",
+      "substitutions": "Use mandioquinha ou batata (500 g) no lugar da abóbora, ajustando água e tempo. Troque frango por grão-de-bico cozido (200 g).",
+      "serving": "Acompanhe com pão ou torrada, conforme a refeição.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias. Reaquecer a 74 °C, mexendo.",
+      "allergens": "Sem leite, ovos ou trigo adicionados; pão contém trigo.",
+      "temperature": null,
+      "sourcePage": 36,
+      "yield": "3 porções"
+    },
+    {
+      "id": "receita-32",
+      "number": 32,
+      "name": "Sopa de lentilha com legumes",
+      "meal": "Jantar",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "15 min",
+      "cookTime": "30-40 min",
+      "ingredients": [
+        "3/4 de xícara de lentilha seca (150 g)",
+        "1 cenoura em cubos (80 g)",
+        "1 batata média em cubos (150 g)",
+        "1 tomate picado (120 g)",
+        "1/2 cebola picada (50 g)",
+        "1 dente de alho",
+        "2 colheres de chá de azeite (10 ml)",
+        "4 xícaras de água (960 ml), mais se necessário",
+        "1/2 colher de chá rasa de sal e cominho"
+      ],
+      "steps": [
+        "Escolha e lave a lentilha. Refogue cebola e alho no azeite por 2 minutos.",
+        "Junte lentilha, cenoura, tomate e água. Ao ferver, reduza o fogo e cozinhe por 15 minutos.",
+        "Acrescente batata e temperos. Cozinhe por mais 15-25 minutos, até tudo amaciar. Mexa e ajuste com água quente se necessário."
+      ],
+      "utensils": "Panela média com tampa e colher.",
+      "substitutions": "Troque batata por abóbora. Se usar lentilha já cozida (400 g), junte quando os legumes estiverem quase macios e reduza a água inicial.",
+      "serving": "Pode acompanhar folhas e ovo bem cozido à parte.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias. Reaquecer a 74 °C, mexendo.",
+      "allergens": "Sem alérgenos principais adicionados; ovo se usado como acompanhamento.",
+      "temperature": null,
+      "sourcePage": 37,
+      "yield": "3 porções"
+    },
+    {
+      "id": "receita-33",
+      "number": 33,
+      "name": "Torta de legumes e ricota",
+      "meal": "Jantar",
+      "method": "Forno",
+      "methods": [
+        "Forno"
+      ],
+      "prepTime": "15 min",
+      "cookTime": "30-40 min a 180 °C",
+      "ingredients": [
+        "3 ovos",
+        "1/2 xícara de leite (120 ml)",
+        "1 xícara de farinha de aveia (100 g)",
+        "1 xícara de ricota esfarelada (150 g)",
+        "1 cenoura pequena ralada (80 g)",
+        "1/2 abobrinha ralada e espremida (80 g)",
+        "1 colher de sopa de azeite (15 ml)",
+        "1 colher de chá de fermento químico (5 g)",
+        "1/4 de colher de chá de sal e orégano"
+      ],
+      "steps": [
+        "Preaqueça o forno a 180 °C. Bata ovos com leite e azeite.",
+        "Junte aveia, ricota, legumes e temperos. Misture o fermento por último.",
+        "Espalhe na forma untada. Asse por 30-40 minutos, até firmar e atingir 74 °C no centro.",
+        "Espere 10 minutos e corte em 6 pedaços."
+      ],
+      "utensils": "Tigela e forma untada de 20 x 20 cm.",
+      "substitutions": "Use brócolis cozido e escorrido (80 g) no lugar da abobrinha. Troque ricota por frango cozido desfiado (150 g), ajustando a umidade.",
+      "serving": "Sirva com salada de folhas e tomate.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias. Reaquecer a 74 °C.",
+      "allergens": "Ovos, leite; aveia pode conter glúten.",
+      "temperature": "180 °C",
+      "sourcePage": 38,
+      "yield": "6 pedaços / 3 porções de 2 pedaços"
+    },
+    {
+      "id": "receita-34",
+      "number": 34,
+      "name": "Espetinhos de frango com legumes",
+      "meal": "Jantar",
+      "method": "Air fryer",
+      "methods": [
+        "Air fryer"
+      ],
+      "prepTime": "15 min + 20 min se usar espetos de madeira",
+      "cookTime": "15-20 min a 180 °C",
+      "ingredients": [
+        "300 g de peito de frango cru em cubos de 2 cm",
+        "1/2 pimentão em pedaços (60 g)",
+        "1/2 cebola em pedaços (50 g)",
+        "1/2 abobrinha em rodelas grossas (80 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1 colher de sopa de suco de limão (15 ml)",
+        "1/4 de colher de chá de sal e páprica"
+      ],
+      "steps": [
+        "Use espetos que caibam sem encostar na resistência e sejam permitidos no aparelho. Se forem de madeira, deixe de molho em água por 20 minutos e seque.",
+        "Tempere frango e legumes com azeite, limão e temperos. Monte 4 espetos sem apertar os ingredientes.",
+        "Asse em camada única a 180 °C por 15-20 minutos, virando na metade. Confira 74 °C no centro dos maiores cubos."
+      ],
+      "utensils": "Espetos permitidos pelo fabricante, tigela e termômetro.",
+      "substitutions": "Se não puder usar espetos, asse os cubos soltos e espaçados. No forno: 200 °C por cerca de 20-30 minutos, até 74 °C.",
+      "serving": "Acompanhe com arroz e feijão, cuscuz ou batata.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias. Reaquecer a 74 °C.",
+      "allergens": "Sem leite, ovos ou trigo adicionados.",
+      "temperature": "180 °C",
+      "sourcePage": 39,
+      "yield": "4 espetinhos / 2 porções"
+    },
+    {
+      "id": "receita-35",
+      "number": 35,
+      "name": "Berinjela recheada com lentilha",
+      "meal": "Jantar",
+      "method": "Forno + fogão",
+      "methods": [
+        "Forno",
+        "Fogão"
+      ],
+      "prepTime": "20 min, com lentilha cozida",
+      "cookTime": "30-40 min a 200 °C",
+      "ingredients": [
+        "2 berinjelas pequenas (500 g)",
+        "1 e 1/2 xícara de lentilha cozida e escorrida (250 g)",
+        "1/2 xícara de molho de tomate (120 g)",
+        "1/2 cebola picada (50 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1/4 de colher de chá de sal e orégano",
+        "2 colheres de sopa de queijo ralado (20 g), opcional"
+      ],
+      "steps": [
+        "Preaqueça o forno a 200 °C. Corte berinjelas ao meio e faça cortes rasos na polpa. Pincele metade do azeite e asse por 20 minutos.",
+        "Retire parte da polpa e pique, sem romper a casca. Refogue cebola no azeite restante e junte lentilha, polpa, molho e temperos; aqueça por 5 minutos.",
+        "Recheie as cascas e acrescente queijo, se usar. Asse mais 10-20 minutos, até berinjela macia e recheio a 74 °C."
+      ],
+      "utensils": "Assadeira, panela e colher.",
+      "substitutions": "Use feijão-branco ou grão-de-bico amassado no mesmo peso. O queijo pode ser omitido.",
+      "serving": "Combine com arroz ou quinoa e salada.",
+      "storage": "Refrigerar por até 3 dias ou congelar por até 30 dias. Reaquecer a 74 °C.",
+      "allergens": "Leite se usar queijo; conferir o molho.",
+      "temperature": "200 °C",
+      "sourcePage": 40,
+      "yield": "4 metades / 2 porções"
+    },
+    {
+      "id": "receita-36",
+      "number": 36,
+      "name": "Macarrão com atum e tomate",
+      "meal": "Jantar",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15-20 min",
+      "ingredients": [
+        "160 g de macarrão seco",
+        "1 lata de atum escorrido (120 g)",
+        "1 xícara de molho de tomate (240 g)",
+        "1/2 cebola picada (50 g)",
+        "1 dente de alho",
+        "2 colheres de chá de azeite (10 ml)",
+        "1/2 xícara de brócolis picado (40 g)",
+        "Sal e manjericão a gosto"
+      ],
+      "steps": [
+        "Cozinhe o macarrão conforme a embalagem; junte brócolis nos 3 minutos finais.",
+        "Refogue cebola e alho no azeite por 2 minutos. Junte o molho e cozinhe por 5 minutos.",
+        "Adicione atum e aqueça por 2-3 minutos. Escorra massa e brócolis, misture ao molho e finalize com manjericão. Use um pouco da água do cozimento se necessário."
+      ],
+      "utensils": "Panela, escorredor e frigideira.",
+      "substitutions": "Troque atum por frango cozido desfiado (120 g) ou feijão-branco cozido (160 g). Use massa sem glúten se necessário, conferindo o rótulo.",
+      "serving": "Sirva com folhas. As trocas não são equivalências nutricionais exatas.",
+      "storage": "Refrigerar por até 2 dias. Reaquecer a 74 °C com um pouco de água.",
+      "allergens": "Peixe; trigo na massa convencional.",
+      "temperature": null,
+      "sourcePage": 41,
+      "yield": "2 porções"
+    },
+    {
+      "id": "receita-37",
+      "number": 37,
+      "name": "Salada de sardinha, feijão e batata",
+      "meal": "Jantar",
+      "method": "Fogão + montagem",
+      "methods": [
+        "Fogão",
+        "Montagem"
+      ],
+      "prepTime": "12 min",
+      "cookTime": "15-20 min + resfriamento",
+      "ingredients": [
+        "2 batatas pequenas em cubos (250 g)",
+        "1 lata de sardinha escorrida (cerca de 85 g)",
+        "1 xícara de feijão-fradinho cozido e escorrido (160 g)",
+        "1 tomate picado (120 g)",
+        "1/4 de cebola picada (25 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1 colher de sopa de suco de limão (15 ml)",
+        "Salsinha e sal a gosto"
+      ],
+      "steps": [
+        "Cozinhe as batatas em água por 15-20 minutos, até amaciar. Escorra e resfrie em recipiente raso sob refrigeração.",
+        "Misture batata fria, feijão, tomate e cebola higienizados.",
+        "Junte a sardinha em pedaços. Tempere com azeite, limão e salsinha perto de servir. Prove antes de acrescentar sal."
+      ],
+      "utensils": "Panela, peneira e tigela.",
+      "substitutions": "Troque a sardinha por atum escorrido (85 g) e o feijão por grão-de-bico. Confira o peso drenado na lata.",
+      "serving": "Sirva com folhas higienizadas. Os ingredientes quentes devem ser resfriados antes da montagem.",
+      "storage": "Refrigerar por até 24 horas. Não congelar a salada montada.",
+      "allergens": "Peixe.",
+      "temperature": null,
+      "sourcePage": 42,
+      "yield": "2 porções"
+    },
+    {
+      "id": "receita-38",
+      "number": 38,
+      "name": "Tofu mexido com tomate",
+      "meal": "Jantar",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "8 min",
+      "cookTime": "8-10 min",
+      "ingredients": [
+        "300 g de tofu firme escorrido",
+        "1 tomate picado (120 g)",
+        "1/2 cebola picada (50 g)",
+        "1/2 xícara de espinafre picado (20 g)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1/4 de colher de chá de cúrcuma, opcional",
+        "1/4 de colher de chá de sal e salsinha"
+      ],
+      "steps": [
+        "Amasse o tofu com garfo em pedaços pequenos.",
+        "Refogue cebola no azeite por 2 minutos em fogo médio. Junte tomate e espinafre e cozinhe por mais 2 minutos.",
+        "Acrescente tofu e temperos. Mexa por 4-6 minutos, até aquecer por completo e reduzir o excesso de água."
+      ],
+      "utensils": "Frigideira e garfo.",
+      "substitutions": "Use couve picada ou abobrinha ralada no lugar do espinafre. Pode omitir a cúrcuma, usada aqui como tempero.",
+      "serving": "Acompanhe com arroz e feijão ou pão e salada. A composição do tofu varia conforme a marca.",
+      "storage": "Refrigerar por até 2 dias. Reaquecer bem.",
+      "allergens": "Soja.",
+      "temperature": null,
+      "sourcePage": 43,
+      "yield": "2 porções"
+    },
+    {
+      "id": "receita-39",
+      "number": 39,
+      "name": "Crepioca de frango e tomate",
+      "meal": "Jantar",
+      "method": "Fogão",
+      "methods": [
+        "Fogão"
+      ],
+      "prepTime": "10 min, com frango cozido",
+      "cookTime": "8-10 min",
+      "ingredients": [
+        "2 ovos",
+        "4 colheres de sopa de goma de tapioca hidratada (60 g)",
+        "1 xícara de frango já cozido e desfiado (150 g)",
+        "1/2 tomate picado (60 g)",
+        "2 colheres de sopa de ricota amassada (40 g)",
+        "1 colher de chá de azeite (5 ml)",
+        "Orégano e 1 pitada de sal"
+      ],
+      "steps": [
+        "Misture frango, tomate, ricota e orégano. Aqueça em panela pequena com um pouco de água, até 74 °C.",
+        "Bata ovos com goma e sal. Unte a frigideira com metade do azeite. Em fogo baixo, cozinhe metade da massa por cerca de 2 minutos de cada lado, até firmar e cozinhar por completo.",
+        "Repita com a massa restante. Divida o recheio entre os discos, dobre e sirva."
+      ],
+      "utensils": "Tigela, frigideira e panela pequena.",
+      "substitutions": "Use atum escorrido ou lentilha cozida amassada (150 g) no lugar do frango. A ricota pode ser substituída por um pouco de molho de tomate.",
+      "serving": "Sirva com salada e legumes. Cada porção é uma crepioca recheada.",
+      "storage": "Refrigerar por até 2 dias. Reaquecer a 74 °C no centro.",
+      "allergens": "Ovos e leite; peixe se usar atum.",
+      "temperature": null,
+      "sourcePage": 44,
+      "yield": "2 crepiocas / 2 porções"
+    },
+    {
+      "id": "receita-40",
+      "number": 40,
+      "name": "Bolinho de peixe e batata",
+      "meal": "Jantar",
+      "method": "Air fryer",
+      "methods": [
+        "Air fryer"
+      ],
+      "prepTime": "20 min, com peixe e batata cozidos",
+      "cookTime": "12-18 min a 180 °C",
+      "ingredients": [
+        "200 g de peixe já cozido, sem pele e sem espinhas",
+        "1 batata média cozida e amassada (150 g)",
+        "3 colheres de sopa de farinha de aveia (30 g)",
+        "1 colher de sopa de suco de limão (15 ml)",
+        "2 colheres de chá de azeite (10 ml)",
+        "1 colher de sopa de salsinha picada",
+        "1 pitada de sal"
+      ],
+      "steps": [
+        "Use peixe cozido até 63 °C e refrigerado corretamente. Desfie e confira cuidadosamente se há espinhas.",
+        "Misture com batata fria, aveia, limão e temperos. Se necessário, junte 1 colher de sopa de água para unir.",
+        "Modele 8 discos com 1,5 cm de altura e pincele com azeite. Asse sem empilhar a 180 °C por 12-18 minutos, virando na metade, até atingir 74 °C no centro."
+      ],
+      "utensils": "Tigela, garfo e cesto da air fryer.",
+      "substitutions": "Use atum em conserva bem escorrido (200 g). No forno: 200 °C por cerca de 20-25 minutos, conferindo o centro.",
+      "serving": "Combine com arroz e salada ou legumes. A batata já participa da massa.",
+      "storage": "Refrigerar por até 2 dias ou congelar por até 30 dias, contando a idade do peixe. Reaquecer a 74 °C.",
+      "allergens": "Peixe; aveia pode conter glúten.",
+      "temperature": "180 °C",
+      "sourcePage": 45,
+      "yield": "8 bolinhos / 2 porções de 4 unidades"
+    }
+  ],
+  "mealPlan": [
+    {
+      "id": "cafe-da-manha",
+      "name": "Café da manhã",
+      "principal": "Pão integral com ovos mexidos + uma fruta + café ou chá.",
+      "alternatives": [
+        "Pão francês com ovos mexidos + mamão.",
+        "Pão integral com ricota temperada e ovo + maçã.",
+        "Tapioca recheada com frango desfiado e tomate + uma fruta.",
+        "Crepioca com queijo branco + melão.",
+        "Cuscuz de milho com ovos + laranja.",
+        "Iogurte natural com aveia, banana e canela.",
+        "Iogurte natural com morangos e aveia + torrada com ricota.",
+        "Panqueca de banana, ovo e aveia + iogurte natural.",
+        "Mingau de aveia preparado com leite + ovos à parte.",
+        "Sanduíche integral de frango desfiado com cenoura.",
+        "Omelete com tomate + pão integral + uma fruta.",
+        "Batata-doce cozida com ovos + café ou chá."
+      ],
+      "sourcePage": 2
+    },
+    {
+      "id": "almoco",
+      "name": "Almoço",
+      "principal": "Arroz + feijão + frango grelhado + salada e legumes.",
+      "alternatives": [
+        "Arroz branco + feijão-carioca + frango grelhado + brócolis e salada.",
+        "Arroz integral + lentilha + patinho moído + abobrinha.",
+        "Batata cozida + tilápia assada + grão-de-bico com tomate e folhas.",
+        "Arroz + feijão-preto + lombo suíno + couve e cenoura.",
+        "Macarrão com frango desfiado e molho de tomate + salada.",
+        "Mandioca cozida + carne magra desfiada + vagem e folhas.",
+        "Arroz + feijão-fradinho + omelete de legumes + salada.",
+        "Quinoa + lentilha + tofu grelhado + legumes assados.",
+        "Batata-doce + sardinha + salada de grão-de-bico.",
+        "Arroz + feijão + proteína de soja refogada + abóbora e repolho."
+      ],
+      "sourcePage": 4
+    },
+    {
+      "id": "cafe-da-tarde",
+      "name": "Café da tarde",
+      "principal": "Iogurte natural com fruta e aveia.",
+      "alternatives": [
+        "Sanduíche integral com frango desfiado e tomate.",
+        "Pão com ovo mexido + café com leite.",
+        "Iogurte natural com banana, aveia e canela.",
+        "Iogurte natural com mamão e chia.",
+        "Tapioca com ricota e frango desfiado.",
+        "Cuscuz com ovo mexido.",
+        "Crepioca com queijo branco e tomate.",
+        "Vitamina de leite com banana e aveia + torrada com ricota.",
+        "Panqueca de banana, ovo e aveia + iogurte natural.",
+        "Sanduíche integral de atum com cenoura ralada.",
+        "Queijo branco + uma fruta + torradas integrais.",
+        "Homus com pão integral + iogurte natural.",
+        "Batata-doce cozida + ovos mexidos.",
+        "Aveia hidratada no leite ou iogurte, com fruta picada."
+      ],
+      "sourcePage": 5
+    },
+    {
+      "id": "jantar",
+      "name": "Jantar",
+      "principal": "Arroz + feijão + peixe, frango ou ovos + legumes e salada.",
+      "alternatives": [
+        "Arroz + feijão + frango grelhado + salada.",
+        "Omelete com legumes + batata cozida + folhas.",
+        "Sopa de legumes com frango desfiado e batata.",
+        "Sopa de lentilha com carne magra e legumes.",
+        "Sanduíche integral com frango, ricota, alface e tomate.",
+        "Sanduíche integral com atum, cenoura e folhas.",
+        "Wrap com frango ou tofu, homus e salada.",
+        "Crepioca recheada com frango e tomate + salada.",
+        "Cuscuz com ovos e legumes refogados.",
+        "Peixe assado + mandioca cozida + brócolis.",
+        "Patinho moído + purê de batata + abobrinha.",
+        "Macarrão com atum e molho de tomate + salada.",
+        "Arroz + lentilha + tofu ou proteína de soja + legumes.",
+        "Salada de grão-de-bico com frango, folhas, tomate e batata."
+      ],
+      "sourcePage": 6
+    }
+  ],
+  "substitutionGroups": [
+    {
+      "title": "Arroz, massa ou tubérculo",
+      "text": "Arroz branco, arroz integral, batata inglesa, batata-doce, mandioca, mandioquinha, inhame, cará, macarrão, quinoa ou cuscuz."
+    },
+    {
+      "title": "Leguminosas",
+      "text": "Feijão-carioca, feijão-preto, feijão-fradinho, lentilha, grão-de-bico, ervilha seca ou soja em grãos."
+    },
+    {
+      "title": "Fonte de proteína",
+      "text": "Frango grelhado ou desfiado, patinho moído, carne bovina magra em tiras, lombo suíno, tilápia, pescada, sardinha, atum, ovos, tofu ou proteína de soja."
+    },
+    {
+      "title": "Folhas e saladas",
+      "text": "Alface, rúcula, agrião, repolho, escarola, tomate, pepino, cenoura ou beterraba."
+    },
+    {
+      "title": "Legumes preparados",
+      "text": "Abobrinha, brócolis, couve-flor, chuchu, berinjela, vagem, quiabo, abóbora ou cenoura."
+    }
+  ],
+  "shopping": [
+    {
+      "title": "Proteínas e laticínios",
+      "text": "Ovos; frango; patinho moído; lombo suíno; tilápia ou pescada; atum e sardinha em conserva; tofu; leite; iogurte natural; ricota; queijo minas; cottage."
+    },
+    {
+      "title": "Grãos, pães e leguminosas",
+      "text": "Arroz; quinoa; lentilha; grão-de-bico; feijão-fradinho ou feijão-branco; aveia; farinha de aveia; flocão de milho; goma de tapioca hidratada; macarrão; pão integral; wrap."
+    },
+    {
+      "title": "Hortaliças e tubérculos",
+      "text": "Tomate; cebola; alho; cenoura; abobrinha; berinjela; brócolis; espinafre; folhas; pepino; pimentão; abóbora; batata; batata-doce; ervilha."
+    },
+    {
+      "title": "Frutas",
+      "text": "Banana; maçã; mamão; limão. Para variar: pera, manga, morango, laranja e outras frutas da estação."
+    },
+    {
+      "title": "Temperos e complementos",
+      "text": "Azeite; sal; orégano; páprica; canela; salsinha; cebolinha; manjericão; cominho; cacau; chia; fermento químico; molho de tomate; tahine; pasta de amendoim; shoyu."
+    }
+  ],
+  "bases": [
+    {
+      "title": "Frango cozido e desfiado",
+      "text": "Para 500 g de peito de frango cru, use 1 litro de água, 1/2 cebola e 1 dente de alho. Cozinhe em panela comum, em fervura suave, por cerca de 20-30 minutos, até o centro atingir 74 °C. Retire e desfie. Pese a quantidade cozida pedida na receita; o rendimento varia."
+    },
+    {
+      "title": "Lentilha",
+      "text": "Para 1 xícara de lentilha seca (200 g), use cerca de 3 xícaras de água (720 ml). Escolha e lave os grãos. Cozinhe em panela comum por cerca de 20-30 minutos, até amaciar, acrescentando água se necessário. Escorra se a receita pedir grãos secos. Meça depois de cozinhar."
+    },
+    {
+      "title": "Grão-de-bico",
+      "text": "Deixe 1 xícara de grão-de-bico seco (180 g) de molho em água na geladeira por 8-12 horas. Descarte a água e cubra com água nova em panela comum. Cozinhe por cerca de 60-90 minutos, até amaciar; adicione água quando necessário. Também pode usar grão-de-bico pronto escorrido."
+    },
+    {
+      "title": "Batata ou batata-doce",
+      "text": "Lave, descasque se desejar e corte em cubos de tamanho semelhante. Cubra com água e cozinhe por cerca de 15-25 minutos após ferver, até o garfo entrar com facilidade. Escorra. Para massas de bolinho, use o ingrediente já frio e sem excesso de água."
+    }
+  ],
+  "planning": [
+    {
+      "title": "1. Escolha e ajuste",
+      "text": "Selecione opções para as quatro refeições. Confira quantas porções cada receita rende e multiplique os ingredientes para a quantidade desejada. Um filé ou um muffin não equivale automaticamente a uma refeição completa."
+    },
+    {
+      "title": "2. Prepare e separe",
+      "text": "Adiante uma leguminosa, um carboidrato e uma fonte de proteína. Separe vegetais e frutas conforme a necessidade. Guarde os alimentos em potes rasos, com nome e data. Congele o que não será consumido dentro do prazo refrigerado."
+    },
+    {
+      "title": "3. Varie com as fichas",
+      "text": "Alterne métodos: use fogão ou forno quando não tiver air fryer. Só siga adaptações descritas ou verificadas; temperatura e tempo não são iguais entre aparelhos. Mantenha os acompanhamentos flexíveis e respeite preferências e restrições."
+    }
+  ],
+  "safety": [
+    {
+      "title": "Higiene e separação",
+      "text": "Lave mãos, utensílios e superfícies. Separe carnes cruas dos alimentos prontos. Não lave frango ou outras carnes cruas. Lave frutas e vegetais; para consumo cru, siga as orientações locais de higienização e o rótulo do sanitizante próprio para alimentos."
+    },
+    {
+      "title": "Temperatura no centro do alimento",
+      "text": "Confira com termômetro: frango 74 °C; carne bovina moída 71 °C; peixe 63 °C; preparos com ovos 71 °C. Cortes inteiros de lombo suíno: 63 °C e 3 minutos de descanso. Sobras e preparações tipo tortas/recheados: 74 °C."
+    },
+    {
+      "title": "Geladeira e resfriamento",
+      "text": "Mantenha a geladeira a 4 °C ou menos e o freezer a -18 °C ou menos. Refrigere perecíveis em até 2 horas; em ambiente acima de 32 °C, em até 1 hora. Divida em potes rasos para resfriar rapidamente, sem esperar horas na bancada."
+    },
+    {
+      "title": "Prazos, congelamento e sobras",
+      "text": "Os prazos das fichas são conservadores e dependem da manipulação correta. Conte o prazo a partir do ingrediente preparado há mais tempo. Descongele na geladeira. Reaqueça só a porção a consumir, até 74 °C no centro, quando aplicável."
+    }
+  ],
+  "reading": [
+    {
+      "title": "Como ler as quantidades",
+      "text": "Xícara padrão: 240 ml. Colher de sopa: 15 ml. Colher de chá: 5 ml. Os pesos são a referência preferencial; medidas caseiras variam com o corte e a compactação. “Cozido” e “escorrido” indicam o estado do ingrediente ao medir."
+    },
+    {
+      "title": "Tempos e ponto de preparo",
+      "text": "Os tempos são estimativas e podem mudar com potência, recipiente, espessura e quantidade. Os preparos não foram testados em cozinha nesta produção. Confira a cocção antes de servir; tempo de relógio não substitui a checagem do ponto."
+    },
+    {
+      "title": "Forno e air fryer",
+      "text": "Preaqueça o forno quando indicado. Na air fryer, siga o manual para preaquecimento e acessórios. Use apenas recipientes resistentes ao calor, deixe espaço para o ar circular e faça levas se necessário. Massas líquidas ficam em formas, nunca soltas no cesto."
+    },
+    {
+      "title": "Substituições e alergias",
+      "text": "são variações culinárias, não equivalências exatas de calorias ou proteína. Confira rótulos em caso de alergias: sem lactose não significa sem leite; aveia e produtos industrializados podem conter glúten ou traços de outros ingredientes."
+    }
+  ],
+  "fruitOptions": "Banana, maçã, pera, mamão, melão, morango, laranja, mexerica, abacaxi, kiwi, manga ou uvas.",
+  "baseStorage": "Resfrie em recipientes rasos e refrigere prontamente. Use as bases em até 2-3 dias ou congele porções por até 30 dias. Sempre conte o prazo total desde o primeiro cozimento.",
+  "about": "Este e-book integra um único bônus do programa de treinos do Team Medeiros. As receitas são sugestões culinárias, com tempos estimados, e não passaram por testes em cozinha nesta produção. Para publicação comercial, conferir os preparos e revisar o conteúdo alimentar com nutricionista. O livro não atribui efeitos anti-inflamatórios específicos às receitas nem prescreve déficit calórico."
+}

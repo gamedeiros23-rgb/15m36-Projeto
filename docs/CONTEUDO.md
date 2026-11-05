@@ -1,36 +1,29 @@
 # Inserção de conteúdo aprovado
 
-Centralize alterações em `src/content.js`. Preserve os IDs: atualizar textos não deve apagar o progresso.
+## Vídeos e exercícios
 
-## Treinos
+Os dados dos módulos e treinos continuam em `src/content.js`. Preserve os IDs. Copie um vídeo autorizado para `public/media/` e configure `video` no treino com o caminho relativo. Sem URL, a tela mantém “Vídeo em preparação”. Insira apenas os cinco exercícios reais aprovados em `exercises`.
 
-Copie o vídeo autorizado para `public/media/treino-01.mp4` e configure `video` no treino como `media/treino-01.mp4`. A tela exibe um vídeo real com controles quando o campo está preenchido; sem URL, mantém “Vídeo em preparação”. URLs externas HTTPS precisam de acesso público e permissões adequadas. Insira os cinco exercícios reais aprovados em `exercises`. Fases, tempos e rodadas estão centralizados nos dados.
+As seis orientações estão em `intro`. `complementary` centraliza a apresentação do bônus e o encerramento, com progresso separado dos treinos. Os vídeos introdutórios precisam de campo e renderização próprios quando forem fornecidos; ler texto não equivale a assistir vídeo. Capas e calendário demonstrativo estão em `moduleCovers` e `calendarDays`.
 
-## Aulas e materiais
+## Alimentação
 
-As seis orientações estão em `intro`. O array `complementary` centraliza a apresentação do bônus alimentar e o encerramento. Ambos são orientações complementares e não somam aos nove treinos. As capas ficam em `moduleCovers` e a distribuição demonstrativa em `calendarDays`. Vídeos introdutórios ainda são placeholders; quando fornecidos, adicionar campo de vídeo e renderização condicional equivalente à dos treinos. Ler texto não equivale a assistir vídeo.
+O cardápio de quatro refeições e as 40 receitas reais agora estão incorporados. Consulte `ALIMENTACAO.md` para fontes, extração e limitações.
 
-Os cinco materiais alimentares são indisponíveis. Quando um PDF autorizado existir, colocá-lo em `public/media/`, transformar o item textual em objeto com ID estável, título e URL e adicionar link real. Não usar URLs vazias, `#` ou downloads fictícios. Nenhum PDF está incluído.
+`src/food-documents.json` identifica os PDFs com ID, título, caminho relativo, páginas e descrição. Não remova um arquivo antes de atualizar seus links. Os PDFs são copiados para o build e incorporados à versão HTML portátil.
 
-## Receitas
+`src/food-content.json` contém:
 
-O array `recipes` está vazio. Somente conteúdo real aprovado deve ser adicionado. Havendo conteúdo, listagem e filtros por refeição e modo de preparo aparecem automaticamente. Campos:
+- `recipes`: receitas reais, com IDs estáveis `receita-01` a `receita-40`.
+- `mealPlan`: combinações principais e alternativas por refeição.
+- `substitutionGroups`, `shopping`, `bases`, `planning`, `safety`, `reading`: orientações presentes nos materiais.
 
-- `id`: identificador estável e único.
-- `name`, `meal`, `method`: nome, refeição e modo de preparo; air fryer é um modo dentro do bônus.
-- `minutes`, `yield`: tempo em minutos e rendimento.
-- `ingredients`: lista de ingredientes com quantidades.
-- `steps`: etapas ordenadas.
-- `utensils`: utensílios.
-- `temperature`: temperatura quando aplicável.
-- `substitutions`: lista de substituições aprovadas.
-- `storage`: conservação.
-- `allergens`: alergênicos quando informados; ausência de informação não significa ausência de alergênicos.
+Cada receita tem `id`, `number`, `name`, `meal`, `method` (descrição original), `methods` (categorias do filtro), `prepTime`, `cookTime`, `yield`, `ingredients` (lista com quantidades), `steps` (lista ordenada), `utensils`, `substitutions`, `serving`, `storage`, `allergens`, `temperature` quando indicada e `sourcePage`.
 
-A ficha abre em `/#/receita/ID`. Não há receitas fictícias. Filtros e fichas não foram validados com receitas reais porque nenhum conteúdo foi fornecido.
+As fichas abrem em `/#/receita/receita-01`, etc. Preservar tempos de espera, condições de ingredientes já cozidos, notas de conservação e alergênicos. Informação não fornecida não equivale a ausência de alergênicos. Não inventar receitas para preencher estados vazios.
 
 ## Imagens e pendências
 
-Imagens autorizadas vão em `public/media/`, com texto alternativo e dimensões otimizadas. A composição atual é tipográfica com CSS e ícones genéricos; não usa retrato do Gabriel, depoimentos ou logotipo apresentado como oficial.
+Imagens autorizadas vão em `public/media/`, com texto alternativo e dimensões otimizadas. A composição atual é tipográfica, sem retrato do Gabriel ou depoimentos inventados.
 
-Faltam: vídeos e exercícios, adaptações, calendário definitivo, receitas, roteiro alimentar, lista de compras e PDFs, conteúdo final de encerramento, condições dos adicionais e regras de acesso. Os 21 dias não definem prazo de acesso.
+Ainda faltam vídeos e exercícios, adaptações, calendário definitivo, roteiro alimentar diário de 21 dias, conteúdo final de encerramento, condições dos adicionais e regras de acesso comercial. Os 21 dias não definem prazo de acesso. O cardápio de quatro refeições não substitui a individualização das porções.

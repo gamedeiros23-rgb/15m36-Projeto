@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cardapio",
+    "title": "Cardápio alimentar · Quatro refeições",
+    "url": "media/cardapio-4-refeicoes-team-medeiros.pdf",
+    "pages": 6,
+    "description": "Combinações principais, alternativas e grupos de substituição."
+  },
+  {
+    "id": "receitas",
+    "title": "Cozinha na Rotina",
+    "url": "media/cozinha-na-rotina-team-medeiros.pdf",
+    "pages": 48,
+    "description": "40 receitas, lista de compras, preparos de base e cuidados na cozinha."
+  }
+]

@@ -33,6 +33,6 @@ Os dois testes remotos de navegador foram tentados e não concluíram: o Chromiu
 
 ## Conteúdo e acesso
 
-Somente o build estático é publicado. A árvore remota contém HTML, assets e `.nojekyll`, sem senhas, tokens, .env ou gravação de referência. Vídeos, exercícios específicos, receitas e PDFs não fornecidos permanecem em preparação.
+Somente o build estático é publicado. A árvore remota contém HTML, assets e `.nojekyll`, sem senhas, tokens, .env ou gravação de referência. O cardápio de quatro refeições e o e-book com 40 receitas foram fornecidos e agora integram a publicação, com downloads reais e fichas navegáveis. Vídeos, exercícios específicos e roteiro alimentar diário de 21 dias continuam em preparação.
 
 Esta prévia não autentica compradores nem integra a Hotmart. Os registros ficam apenas no navegador, sem sincronização entre dispositivos. Os registros da versão local/HTML não migram automaticamente para a origem pública.

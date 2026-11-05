@@ -66,14 +66,6 @@ export const intro = [
     text: "Respeite seus limites e prepare um espaço livre e seguro. Se sentir dor ou mal-estar, interrompa a atividade e procure orientação profissional. Exercícios e adaptações específicos ainda serão fornecidos.",
   },
 ];
-export const foodMaterials = [
-  "Roteiro alimentar de 21 dias",
-  "Receitas práticas",
-  "Substituições econômicas",
-  "Lista de compras",
-  "Organização e preparo das refeições",
-];
-export const recipes = []; // Conteúdo real: consultar o formato documentado no README.
 export const modules = [
   {
     id: "comece",
@@ -107,7 +99,7 @@ export const complementary = [
     id: "bonus-alimentar",
     title: "Conheça seu bônus alimentar",
     module: "alimentacao",
-    text: "A Dieta Metabólica reúne os espaços para roteiro alimentar, receitas, substituições econômicas, lista de compras e preparo das refeições. As receitas de air fryer fazem parte deste mesmo conjunto. Os materiais ainda estão em preparação. Este bônus é educativo e não substitui uma prescrição alimentar individual.",
+    text: "A Dieta Metabólica reúne os espaços para roteiro alimentar, receitas, substituições econômicas, lista de compras e preparo das refeições. As receitas de air fryer fazem parte deste mesmo conjunto. Consulte o cardápio de quatro refeições e as 40 receitas do e-book Cozinha na Rotina. Eles incluem substituições, lista de compras, preparos de base e orientações de conservação. O roteiro diário de 21 dias continua em preparação. Este bônus é educativo e não substitui uma prescrição alimentar individual.",
   },
   {
     id: "encerramento",

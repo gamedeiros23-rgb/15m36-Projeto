@@ -4,7 +4,7 @@
 
 `npm ci --cache /tmp/15m36-npm-cache --no-audit --no-fund` completou com o lockfile existente. `npm test` compilou o build de produção com Vite, iniciou o servidor de preview e executou Playwright com Chromium real, em um único worker.
 
-**Execução final da atualização por vídeo: 19 testes aprovados; 1 ignorado intencionalmente.** O teste exclusivo do menu móvel não se aplica ao projeto desktop. Nenhuma falha permaneceu na execução final. A execução móvel usa emulação de viewport/toque, não um aparelho físico.
+**Execução final da atualização do bônus alimentar: 25 testes aprovados; 3 ignorados intencionalmente.** O teste exclusivo do menu móvel não se aplica ao desktop; os dois testes de URL pública dependem da variável `PUBLIC_PREVIEW_URL` e não fazem parte da execução local. Nenhuma falha permaneceu na execução final. A execução móvel usa emulação de viewport/toque, não um aparelho físico.
 
 Resoluções: 1440 × 1000 no desktop e 390 × 844 no celular. As capturas de página inteira ficam em `artifacts/`, incluindo início, treino, alimentação, hidratação, módulos e calendário nas duas larguras; também há captura do menu móvel.
 
@@ -30,8 +30,8 @@ Resoluções: 1440 × 1000 no desktop e 390 × 844 no celular. As capturas de p�
 
 ## Não verificado / indisponível
 
-- Reprodução de vídeo, downloads e conteúdo de receitas: materiais reais não fornecidos.
-- Filtros/fichas com receitas reais: estrutura implementada, array vazio; nenhum conteúdo fictício foi incluído para a entrega.
+- Reprodução de vídeos: arquivos ainda não fornecidos. PDFs e receitas reais foram incorporados e verificados na atualização do bônus alimentar.
+- A biblioteca alimentar agora tem 40 receitas reais, com busca, filtros e fichas verificadas. Não há receitas fictícias.
 - Login, pagamento, direitos comerciais e Hotmart: fora do escopo desta prévia.
 - Sincronização, conta e recuperação em outro dispositivo: não implementadas; persistência é local.
 - Dispositivos físicos, Safari e Firefox: não testados.
@@ -52,3 +52,13 @@ URL: https://gamedeiros23-rgb.github.io/15m36-Projeto/
 O GitHub Pages confirmou status `built`, acesso público e HTTPS obrigatório para a branch `gh-pages`. O endereço respondeu HTTP 200 sem autenticação. Os 16 arquivos públicos foram conferidos com curl mantendo a verificação TLS; todos os SHA-256 coincidiram com o build local.
 
 Dois testes remotos de Playwright (desktop e celular) foram tentados e falharam antes de abrir a página com `ERR_CERT_AUTHORITY_INVALID`, causado pela confiança HTTPS do navegador neste ambiente com proxy. Importar a CA já fornecida pelo ambiente para NSS não resolveu a falha. Não foram usados `ignoreHTTPSErrors` ou outras formas de desativar a validação TLS. Assim, os testes de interações diretamente na publicação não são considerados aprovados. O código servido publicamente corresponde ao build local já validado.
+
+## Atualização do bônus alimentar
+
+Foram incorporados os dois PDFs originais, o cardápio de quatro refeições com 50 alternativas e as 40 receitas reais. Uma auditoria textual comparou ingredientes, passos, utensílios, substituições, modo de servir, conservação e alergênicos de todas as fichas com as páginas do e-book, normalizando apenas espaços e marcadores. Nenhuma receita foi inventada.
+
+Na execução final, os testes verificaram as quatro refeições, contagem e exemplos de alternativas, combinação de filtros, busca sem acentos, estado vazio de busca, limpeza de filtros, abertura das 40 fichas, navegação entre receitas, períodos de geladeira, ingredientes previamente cozidos, temperaturas e integridade dos downloads. Os arquivos baixados pelo navegador, inclusive os PDFs incorporados no HTML portátil, tiveram SHA-256 igual aos originais.
+
+As capturas específicas ficam em `artifacts/*-bonus-alimentar.png`, `*-receitas-filtradas.png` e `*-receita-real.png`. As capturas das receitas e da biblioteca filtrada foram inspecionadas visualmente. O cardápio de opções não foi apresentado como roteiro diário de 21 dias.
+
+A atualização alimentar foi publicada no mesmo GitHub Pages. O build `4ac992b22ff8e40ea079a5942b412f4c984031db` foi confirmado como `built`. Os 18 arquivos públicos foram baixados por HTTPS sem autenticação, mantendo verificação de certificado, e comparados por SHA-256 ao build local. Os dois PDFs publicados são cópias integrais dos originais.

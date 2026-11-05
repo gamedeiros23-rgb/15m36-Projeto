@@ -1,3 +1,5 @@
+import Food from "./pages/Food";
+import Recipe from "./pages/Recipe";
 import CalendarExplorer from "./CalendarExplorer";
 import { Link, Button, Empty, Head } from "./components";
 import Hydration from "./pages/Hydration";
@@ -34,8 +36,6 @@ import {
   workouts,
   intro,
   modules,
-  foodMaterials,
-  recipes,
   complementary,
   moduleCovers,
 } from "./content";
@@ -239,153 +239,6 @@ export default function App() {
           );
         })}
       </div>
-    );
-  }
-  function Food() {
-    const [meal, setMeal] = useState("Todas"),
-      [method, setMethod] = useState("Todos");
-    const filtered = recipes.filter(
-      (r) =>
-        (meal === "Todas" || r.meal === meal) &&
-        (method === "Todos" || r.method === method),
-    );
-    return (
-      <>
-        <Head
-          eyebrow="PILAR 02 · SUPER BÔNUS INCLUSO"
-          title="Alimentação que cabe na rotina."
-        >
-          Dieta Metabólica · Comidas Deliciosas para Emagrecer
-        </Head>
-        <div className="notice">
-          <Info size={19} />
-          <span>
-            Conteúdo educativo de organização alimentar. Não é uma prescrição
-            alimentar individual.
-          </span>
-        </div>
-        <Link className="resource bonus-orientation" to="/aula/bonus-alimentar">
-          <BookOpen size={22} />
-          <div>
-            <h3>Conheça seu bônus alimentar</h3>
-            <p>Orientação em texto · Vídeo em preparação</p>
-          </div>
-          <ChevronRight size={19} />
-        </Link>
-        <div className="section-heading">
-          <h2>Seu caderno de receitas</h2>
-          <span className="pill">BÔNUS ALIMENTAR</span>
-        </div>
-        {recipes.length > 0 ? (
-          <>
-            <div className="filters">
-              <label>
-                Refeição
-                <select value={meal} onChange={(e) => setMeal(e.target.value)}>
-                  {["Todas", ...new Set(recipes.map((r) => r.meal))].map(
-                    (x) => (
-                      <option key={x}>{x}</option>
-                    ),
-                  )}
-                </select>
-              </label>
-              <label>
-                Modo de preparo
-                <select
-                  value={method}
-                  onChange={(e) => setMethod(e.target.value)}
-                >
-                  {["Todos", ...new Set(recipes.map((r) => r.method))].map(
-                    (x) => (
-                      <option key={x}>{x}</option>
-                    ),
-                  )}
-                </select>
-              </label>
-            </div>
-            <div className="grid3">
-              {filtered.map((r) => (
-                <Link key={r.id} to={`/receita/${r.id}`} className="panel">
-                  <h3>{r.name}</h3>
-                  <p>
-                    {r.meal} · {r.minutes} min
-                  </p>
-                </Link>
-              ))}
-            </div>
-            {!filtered.length && <Empty title="Nenhuma receita neste filtro" />}
-          </>
-        ) : (
-          <Empty title="As boas receitas estão chegando.">
-            Nenhuma receita foi fornecida ainda. Quando disponíveis, as fichas
-            terão ingredientes, preparo e informações práticas. Receitas de air
-            fryer também farão parte deste bônus.
-          </Empty>
-        )}
-        <div className="section-heading">
-          <h2>Organize sua alimentação</h2>
-        </div>
-        <div className="resource-list">
-          {foodMaterials.map((name, i) => (
-            <div className="resource" key={name}>
-              <span className="resource-icon">
-                <BookOpen size={20} />
-              </span>
-              <div>
-                <h3>{name}</h3>
-                <p>Em preparação · Nenhum arquivo disponível</p>
-              </div>
-              <span className="pill muted">EM BREVE</span>
-            </div>
-          ))}
-        </div>
-      </>
-    );
-  }
-  function Recipe({ id }) {
-    const r = recipes.find((r) => r.id === id);
-    if (!r)
-      return (
-        <>
-          <Head title="Receita não disponível" />
-          <Button to="/alimentacao" secondary>
-            Voltar à alimentação
-          </Button>
-        </>
-      );
-    return (
-      <>
-        <Head eyebrow={r.meal} title={r.name}>
-          {r.minutes} min · {r.yield}
-        </Head>
-        {["ingredients", "steps", "utensils", "substitutions"].map((key, i) => (
-          <section className="panel" key={key}>
-            <h2>
-              {
-                [
-                  "Ingredientes e quantidades",
-                  "Passo a passo",
-                  "Utensílios",
-                  "Substituições",
-                ][i]
-              }
-            </h2>
-            <ul>
-              {(r[key] || []).map((x, j) => (
-                <li key={j}>{x}</li>
-              ))}
-            </ul>
-          </section>
-        ))}
-        <div className="panel">
-          <p>Temperatura: {r.temperature || "Não se aplica"}</p>
-          <p>Conservação: {r.storage || "Não informada"}</p>
-          <p>Alergênicos: {r.allergens || "Não informados"}</p>
-        </div>
-        <Button to="/alimentacao" secondary>
-          Voltar às receitas
-        </Button>
-      </>
     );
   }
   function Calendar() {

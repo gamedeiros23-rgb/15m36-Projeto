@@ -39,5 +39,17 @@ html = html.replace(
     return `<style>${css}</style>`;
   },
 );
+// Inclui os PDFs reais na versão portátil, com URLs Blob para abrir/baixar.
+const documents = JSON.parse(
+  readFileSync(resolve("src/food-documents.json"), "utf8"),
+);
+const encoded = Object.fromEntries(
+  documents.map((doc) => [
+    doc.id,
+    readFileSync(resolve(dist, doc.url)).toString("base64"),
+  ]),
+);
+const setup = `<script>window.__MEDEIROS_DOCUMENTS__=Object.fromEntries(Object.entries(${JSON.stringify(encoded)}).map(([id,base64])=>[id,URL.createObjectURL(new Blob([Uint8Array.from(atob(base64),c=>c.charCodeAt(0))],{type:'application/pdf'}))]));</script>`;
+html = html.replace("</head>", setup + "</head>");
 writeFileSync(resolve(dist, "15m36.html"), html);
 console.log("Prévia portátil gerada: dist/15m36.html");

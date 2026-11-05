@@ -25,7 +25,8 @@ npm test
 
 - `scripts/build-standalone.mjs`: geração da prévia HTML portátil.
 - `src/CalendarExplorer.jsx`: seleção interativa dos 21 dias demonstrativos.
-- `src/content.js`: dados centralizados dos cinco módulos, fases, nove treinos, orientações, capas e distribuição demonstrativa. Preserve os IDs ao atualizar textos.
+- `src/content.js`: dados dos módulos, fases, treinos, orientações e calendário.
+- `src/food-content.json` e `src/food-documents.json`: cardápio, 40 receitas reais e PDFs. Preserve os IDs ao atualizar textos.
 - `src/main.jsx`: ponto de entrada; `src/App.jsx`: navegação e telas.
 - `src/components.jsx`: componentes compartilhados; `src/pages/Hydration.jsx`: registros de água.
 - `src/styles.css`: identidade visual e layouts responsivos.
@@ -42,9 +43,9 @@ Os dados ficam no `localStorage`, chave `15m36:member:v1`. A água é separada p
 
 ## Conteúdos
 
-Nenhum vídeo, exercício específico, receita ou PDF foi fornecido. A interface informa a indisponibilidade e não simula reprodução, download ou compra. As orientações em texto apoiam esta prévia. O encerramento é separado dos treinos. Não há bloqueio por data; conclusão informada não prova execução física nem 21 dias de prática.
+O bônus alimentar inclui o cardápio de quatro refeições e as 40 receitas do e-book Cozinha na Rotina enviados pelo responsável. Os dois PDFs podem ser consultados e baixados. A biblioteca tem busca e filtros; as fichas mantêm ingredientes, quantidades, tempos, conservação e alergênicos. As listas de compras, bases de preparo e substituições dos documentos também estão disponíveis. Consulte `docs/ALIMENTACAO.md`.
 
-Corpo sem Dor e Acesso Vitalício não concedem direitos de acesso. O bônus alimentar não é prescrição individual. Não há meta universal de água ou promessa de emagrecimento.
+Vídeos, exercícios específicos e o roteiro alimentar diário de 21 dias continuam em preparação. O cardápio é um guia de opções de quatro refeições, sem prescrição individual. O material não afirma testes em cozinha ou validação nutricional. Os adicionais não concedem direitos de acesso nesta prévia.
 
 ## Publicação
 

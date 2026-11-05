@@ -66,9 +66,10 @@ test("all screens, five modules, nine workouts and no broken layout", async ({
   ).toBeVisible();
   await goto(page, "/alimentacao");
   await expect(
-    page.getByRole("heading", { name: "As boas receitas estão chegando." }),
+    page.getByRole("heading", { name: "Seu caderno de receitas" }),
   ).toBeVisible();
-  await expect(page.locator("select")).toHaveCount(0);
+  await expect(page.locator("select")).toHaveCount(2);
+  await expect(page.locator(".recipe-card")).toHaveCount(40);
   expect(errors).toEqual([]);
 });
 test("workout completion persists, reverses and stays separate from lessons", async ({

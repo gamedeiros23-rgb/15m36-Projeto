@@ -596,6 +596,16 @@ export default function App() {
             </div>
           </div>
         </section>
+        <div className="section-heading">
+          <div>
+            <span className="eyebrow">SEU CAMINHO ESTÁ AQUI.</span>
+            <h2>Explore os módulos</h2>
+          </div>
+          <Link to="/modulos" className="text-link">
+            Ver todos <ArrowRight size={16} />
+          </Link>
+        </div>
+        <ModuleCards />
         <div className="method-facts" aria-label="Estrutura do desafio">
           {[
             ["21", "dias de desafio"],
@@ -691,16 +701,6 @@ export default function App() {
             </Link>
           ))}
         </div>
-        <div className="section-heading">
-          <div>
-            <span className="eyebrow">SEU CAMINHO ESTÁ AQUI.</span>
-            <h2>Explore os módulos</h2>
-          </div>
-          <Link to="/modulos" className="text-link">
-            Ver todos <ArrowRight size={16} />
-          </Link>
-        </div>
-        <ModuleCards />
         <CalendarExplorer completed={state.completed} />
         <div className="calendar-cta">
           <div>

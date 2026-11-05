@@ -62,3 +62,9 @@ Na execução final, os testes verificaram as quatro refeições, contagem e exe
 As capturas específicas ficam em `artifacts/*-bonus-alimentar.png`, `*-receitas-filtradas.png` e `*-receita-real.png`. As capturas das receitas e da biblioteca filtrada foram inspecionadas visualmente. O cardápio de opções não foi apresentado como roteiro diário de 21 dias.
 
 A atualização alimentar foi publicada no mesmo GitHub Pages. O build `4ac992b22ff8e40ea079a5942b412f4c984031db` foi confirmado como `built`. Os 18 arquivos públicos foram baixados por HTTPS sem autenticação, mantendo verificação de certificado, e comparados por SHA-256 ao build local. Os dois PDFs publicados são cópias integrais dos originais.
+
+## Módulos logo após o banner da visão geral
+
+A seção “Explore os módulos” foi movida para imediatamente após o banner principal. A ordem é Comece aqui, Comer bem, Ativar, Acelerar e Evoluir; os indicadores do desafio, próximo treino e pilares aparecem depois dos módulos.
+
+Foram executados os quatro testes existentes de navegação e referência visual em desktop e celular: todos passaram. Uma verificação adicional no Chromium confirmou a sequência dos elementos após o banner, os cinco links na ordem correta e ausência de rolagem horizontal em 1440 px e 390 px. As capturas estão em `artifacts/*-modulos-logo-abaixo-banner.png`.

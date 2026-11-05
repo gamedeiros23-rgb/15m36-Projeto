@@ -3590,3 +3590,79 @@ label {
     font-size: 12px;
   }
 }
+
+.hero + .journey-strip {
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+.overview-modules {
+  margin-bottom: 12px;
+}
+.workout-start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  background: linear-gradient(115deg, #30251b, #211e1a);
+  border-color: #6c4c31;
+}
+.workout-start > div {
+  max-width: 620px;
+}
+.workout-start .eyebrow {
+  color: #eab27f;
+  font-size: 9px;
+  margin-bottom: 8px;
+}
+.workout-start h2 {
+  margin-bottom: 10px;
+}
+.workout-start p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.workout-start > .button {
+  flex-shrink: 0;
+}
+.start-status {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 15px 18px;
+  color: #e4c29f;
+  background: #29231c;
+  border: 1px solid #64503a;
+  border-radius: 7px;
+  font-size: 12px;
+}
+.start-status > svg {
+  color: #ffab68;
+}
+.start-status:focus {
+  outline: 2px solid #ffa35f;
+  outline-offset: 3px;
+}
+@media (max-width: 1050px) {
+  .workout-start {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+  }
+}
+@media (max-width: 540px) {
+  .workout-start > .button {
+    width: 100%;
+    font-size: 11px;
+  }
+  .start-status {
+    font-size: 11px;
+    line-height: 1.8;
+    padding: 14px;
+  }
+  .start-status > svg {
+    width: 17px;
+  }
+  .hero + .journey-strip {
+    margin-top: 14px;
+  }
+}

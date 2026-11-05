@@ -39,6 +39,8 @@ npm test
 
 Navegação pelos módulos e nove treinos; conclusão manual e reversível; leitura das orientações registrada separadamente; próximo treino calculado pelo primeiro não concluído; estado de conclusão dos nove; meta pessoal de água, inclusão, correção e exclusão de registros; calendário demonstrativo; menu móvel e navegação por teclado.
 
+A visão geral mostra banner, acesso rápido condicional, módulos e calendário. Os três cartões redundantes de pilares foram retirados; os acessos continuam no menu desktop e móvel. O cartão de próximo treino e progresso só aparece após registrar o início de um treino (ou ao reproduzir um vídeo real, quando fornecido). Abrir conteúdos ou registrar leitura/água não inicia o desafio. Concluir manualmente um treino também confirma que houve início, sem exigir um segundo registro. Perfis antigos com treinos concluídos mantêm o acesso rápido.
+
 Os dados ficam no `localStorage`, chave `15m36:member:v1`. A água é separada por data local. A meta permanece ao mudar de dia. Não há sincronização entre dispositivos, conta ou acompanhamento profissional automatizado. Limpar os dados do navegador remove os registros. Outro domínio/origem começa com novos registros. Armazenamento bloqueado gera aviso.
 
 ## Conteúdos

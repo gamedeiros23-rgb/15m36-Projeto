@@ -1,3 +1,4 @@
+import Workout from "./pages/Workout";
 import Food from "./pages/Food";
 import Recipe from "./pages/Recipe";
 import CalendarExplorer from "./CalendarExplorer";
@@ -41,15 +42,23 @@ import {
 } from "./content";
 const KEY = "15m36:member:v1";
 const today = () => new Date().toLocaleDateString("en-CA");
-const initial = { completed: [], lessons: [], goal: null, water: {} };
+const initial = {
+  completed: [],
+  lessons: [],
+  goal: null,
+  water: {},
+  challengeStarted: false,
+};
 function load() {
   try {
     const s = JSON.parse(localStorage.getItem(KEY));
     if (!s) return initial;
+    const completed = Array.isArray(s.completed)
+      ? s.completed.filter((id) => workouts.some((w) => w.id === id))
+      : [];
     return {
-      completed: Array.isArray(s.completed)
-        ? s.completed.filter((id) => workouts.some((w) => w.id === id))
-        : [],
+      completed,
+      challengeStarted: s.challengeStarted === true || completed.length > 0,
       lessons: Array.isArray(s.lessons)
         ? s.lessons.filter((x) => typeof x === "string")
         : [],
@@ -138,10 +147,17 @@ export default function App() {
   const toggle = (key, id) =>
     setState((s) => ({
       ...s,
+      challengeStarted:
+        s.challengeStarted || (key === "completed" && !s[key].includes(id)),
       [key]: s[key].includes(id)
         ? s[key].filter((x) => x !== id)
         : [...s[key], id],
     }));
+  const startChallenge = () =>
+    setState((s) =>
+      s.challengeStarted ? s : { ...s, challengeStarted: true },
+    );
+  const hasStarted = state.challengeStarted || state.completed.length > 0;
   const completed = state.completed.length;
   const next = workouts.find((w) => !state.completed.includes(w.id));
   const current = phases[next?.phase ?? 2];
@@ -362,99 +378,6 @@ export default function App() {
       </>
     );
   }
-  function Workout({ number }) {
-    const w = workouts.find((x) => x.number === Number(number));
-    if (!w) return <NotFound />;
-    const p = phases[w.phase];
-    return (
-      <>
-        <Link to={`/modulo/${p.id}`} className="back">
-          <ArrowLeft size={16} /> Voltar ao módulo {p.name}
-        </Link>
-        <Head
-          eyebrow={`SISTEMA EVO3 · ${p.name} · ${p.level}`}
-          title={`Treino ${num(w.number)}`}
-        >
-          Um passo para sua constância. Faça no seu ritmo.
-        </Head>
-        <div className="workout-facts">
-          {[
-            [Clock, "15 min", "Duração planejada"],
-            [Flame, `${p.work}s / ${p.rest}s`, "Execução / descanso"],
-            [Dumbbell, "5 exercícios", "Conteúdo em preparação"],
-            [RotateCcw, "3 rodadas", "Estrutura do treino"],
-          ].map(([Icon, value, label]) => (
-            <div className="panel" key={label}>
-              <Icon size={21} />
-              <strong>{value}</strong>
-              <span>{label}</span>
-            </div>
-          ))}
-        </div>
-        {w.video ? (
-          <video
-            className="real-video"
-            src={w.video}
-            controls
-            preload="metadata"
-            aria-label={`Vídeo do treino ${num(w.number)}`}
-          />
-        ) : (
-          <Empty video title="Vídeo em preparação">
-            O vídeo e os exercícios deste treino ainda não foram fornecidos.
-            Volte aqui quando o conteúdo estiver disponível.
-          </Empty>
-        )}
-        <div className="two-col">
-          <section className="panel">
-            <h2>A estrutura do treino</h2>
-            {w.exercises.map((e, i) => (
-              <div className="exercise" key={i}>
-                <span>{num(i + 1)}</span>
-                {e}
-              </div>
-            ))}
-          </section>
-          <section className="panel">
-            <h2>Antes de começar</h2>
-            <p>
-              Prepare um espaço seguro, respeite seus limites e interrompa a
-              atividade em caso de dor ou mal-estar. As orientações específicas
-              e adaptações deste treino estão em preparação.
-            </p>
-            <Link className="text-link" to="/aula/seguranca">
-              Consultar orientações gerais <ArrowUpRight size={16} />
-            </Link>
-            <div className="divider" />
-            <Mark id={w.id} />
-            <p className="small muted">
-              Registro informado por você. O sistema não verifica a execução
-              física. Use quando tiver realizado o treino, mesmo que fora desta
-              prévia.
-            </p>
-          </section>
-        </div>
-        <nav className="prev-next" aria-label="Sequência de treinos">
-          {w.number > 1 ? (
-            <Link to={`/treino/${w.number - 1}`}>
-              <ArrowLeft size={18} /> Treino {num(w.number - 1)}
-            </Link>
-          ) : (
-            <span />
-          )}
-          {w.number < 9 ? (
-            <Link to={`/treino/${w.number + 1}`}>
-              Treino {num(w.number + 1)} <ArrowRight size={18} />
-            </Link>
-          ) : (
-            <Link to="/aula/encerramento">
-              Encerramento <ArrowRight size={18} />
-            </Link>
-          )}
-        </nav>
-      </>
-    );
-  }
   function Module({ id }) {
     const m = modules.find((x) => x.id === id);
     if (!m) return <NotFound />;
@@ -596,111 +519,78 @@ export default function App() {
             </div>
           </div>
         </section>
-        <div className="section-heading">
-          <div>
-            <span className="eyebrow">SEU CAMINHO ESTÁ AQUI.</span>
-            <h2>Explore os módulos</h2>
-          </div>
-          <Link to="/modulos" className="text-link">
-            Ver todos <ArrowRight size={16} />
-          </Link>
-        </div>
-        <ModuleCards />
-        <div className="method-facts" aria-label="Estrutura do desafio">
-          {[
-            ["21", "dias de desafio"],
-            ["9", "treinos de 15 minutos"],
-            ["3", "treinos por fase"],
-            ["3", "fases do Sistema EVO3"],
-          ].map(([value, label]) => (
-            <div key={label}>
-              <strong>{value}</strong>
-              <span>{label}</span>
-            </div>
-          ))}
-        </div>
-        <section className="journey-strip">
-          <div className="journey-icon">
-            <Flame size={24} />
-          </div>
-          <div className="journey-title">
-            <span className="tiny muted">
-              {next ? "SEU PRÓXIMO PASSO" : "SEQUÊNCIA CONCLUÍDA"}
-            </span>
-            <h2>
-              {next
-                ? `Treino ${num(next.number)} · ${current.name}`
-                : "Nove treinos. Constância para continuar."}
-            </h2>
-            <p>
-              {next
-                ? `${current.level} · 15 min · Vídeo em preparação`
-                : "Você registrou os nove treinos. Isso não comprova 21 dias de prática."}
-            </p>
-          </div>
-          <div className="journey-progress">
-            <span>
-              <strong>
-                {completed}
-                <small> / 9</small>
-              </strong>
-              <span>treinos concluídos</span>
-            </span>
-            <div className="progress-track">
-              <div style={{ width: `${(completed / 9) * 100}%` }} />
-            </div>
-          </div>
-          <Link
-            to={next ? `/treino/${next.number}` : "/treinos"}
-            className="circle-arrow large"
-            aria-label={next ? "Abrir próximo treino" : "Revisitar treinos"}
+        {hasStarted && (
+          <section
+            className="journey-strip"
+            aria-label="Próximo treino e progresso"
           >
-            <ArrowRight size={23} />
-          </Link>
-        </section>
-        <div className="section-heading">
-          <div>
-            <span className="eyebrow">O BÁSICO BEM FEITO, TODOS OS DIAS.</span>
-            <h2>Três pilares. Uma direção.</h2>
-          </div>
-        </div>
-        <div className="pillar-grid">
-          {[
-            [
-              Dumbbell,
-              "01",
-              "Treinos",
-              "15 minutos para entrar em ação.",
-              "/treinos",
-            ],
-            [
-              Utensils,
-              "02",
-              "Alimentação",
-              "Mais organização, menos complicação.",
-              "/alimentacao",
-            ],
-            [
-              Droplets,
-              "03",
-              "Hidratação",
-              "Um cuidado que acompanha você.",
-              "/hidratacao",
-            ],
-          ].map(([Icon, n, title, text, to]) => (
-            <Link to={to} className="pillar-card" key={to}>
-              <div className="pillar-top">
-                <span className="pillar-icon">
-                  <Icon size={27} />
-                </span>
-                <span className="tiny muted">PILAR {n}</span>
+            <div className="journey-icon">
+              <Flame size={24} />
+            </div>
+            <div className="journey-title">
+              <span className="tiny muted">
+                {next ? "SEU PRÓXIMO PASSO" : "SEQUÊNCIA CONCLUÍDA"}
+              </span>
+              <h2>
+                {next
+                  ? `Treino ${num(next.number)} · ${current.name}`
+                  : "Nove treinos. Constância para continuar."}
+              </h2>
+              <p>
+                {next
+                  ? `${current.level} · 15 min · Vídeo em preparação`
+                  : "Você registrou os nove treinos. Isso não comprova 21 dias de prática."}
+              </p>
+            </div>
+            <div className="journey-progress">
+              <span>
+                <strong>
+                  {completed}
+                  <small> / 9</small>
+                </strong>
+                <span>treinos concluídos</span>
+              </span>
+              <div className="progress-track">
+                <div style={{ width: `${(completed / 9) * 100}%` }} />
               </div>
-              <h3>{title}</h3>
-              <p>{text}</p>
-              <ArrowUpRight className="pillar-arrow" size={22} />
+            </div>
+            <Link
+              to={next ? `/treino/${next.number}` : "/treinos"}
+              className="circle-arrow large"
+              aria-label={next ? "Abrir próximo treino" : "Revisitar treinos"}
+            >
+              <ArrowRight size={23} />
             </Link>
-          ))}
-        </div>
+          </section>
+        )}
+        <section
+          className="overview-modules"
+          aria-labelledby="overview-modules-heading"
+        >
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">SEU CAMINHO ESTÁ AQUI.</span>
+              <h2 id="overview-modules-heading">Explore os módulos</h2>
+            </div>
+            <Link to="/modulos" className="text-link">
+              Ver todos <ArrowRight size={16} />
+            </Link>
+          </div>
+          <ModuleCards />
+          <div className="method-facts" aria-label="Estrutura do desafio">
+            {[
+              ["21", "dias de desafio"],
+              ["9", "treinos de 15 minutos"],
+              ["3", "treinos por fase"],
+              ["3", "fases do Sistema EVO3"],
+            ].map(([value, label]) => (
+              <div key={label}>
+                <strong>{value}</strong>
+                <span>{label}</span>
+              </div>
+            ))}
+          </div>
+        </section>
         <CalendarExplorer completed={state.completed} />
         <div className="calendar-cta">
           <div>
@@ -794,7 +684,15 @@ export default function App() {
     page = <Hydration key={day} state={state} setState={setState} day={day} />;
   else if (route === "/calendario") page = <Calendar />;
   else if (route.startsWith("/treino/"))
-    page = <Workout number={route.split("/")[2]} />;
+    page = (
+      <Workout
+        number={route.split("/")[2]}
+        challengeStarted={hasStarted}
+        onStart={startChallenge}
+        onToggle={(id) => toggle("completed", id)}
+        completed={state.completed}
+      />
+    );
   else if (route.startsWith("/modulo/"))
     page = <Module id={route.split("/")[2]} />;
   else if (route.startsWith("/aula/"))

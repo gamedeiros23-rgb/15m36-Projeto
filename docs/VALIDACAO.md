@@ -68,3 +68,15 @@ A atualização alimentar foi publicada no mesmo GitHub Pages. O build `4ac992b2
 A seção “Explore os módulos” foi movida para imediatamente após o banner principal. A ordem é Comece aqui, Comer bem, Ativar, Acelerar e Evoluir; os indicadores do desafio, próximo treino e pilares aparecem depois dos módulos.
 
 Foram executados os quatro testes existentes de navegação e referência visual em desktop e celular: todos passaram. Uma verificação adicional no Chromium confirmou a sequência dos elementos após o banner, os cinco links na ordem correta e ausência de rolagem horizontal em 1440 px e 390 px. As capturas estão em `artifacts/*-modulos-logo-abaixo-banner.png`.
+
+## Visão geral adaptada ao início do desafio
+
+Foram removidos os três cartões de pilares duplicados. Na primeira visita, a sequência principal é banner → módulos → calendário. Após registrar o início, passa a ser banner → próximo treino/progresso → módulos → calendário. Os indicadores estáticos da estrutura permanecem junto dos módulos. Os pilares continuam acessíveis pelo menu desktop/móvel e explicados em Comece aqui.
+
+A chave de armazenamento permanece `15m36:member:v1`, com campo adicional `challengeStarted`. A migração identifica treinos concluídos válidos como evidência de início, preservando treino, leitura, meta e água. Apenas visitar uma aula ou treino não registra início. O botão “Registrar início do treino” grava o início sem concluir o treino. Quando houver vídeo real, o evento de reprodução também registra início sem concluir; a tela do treino foi extraída como componente estável para não remontar/interromper o player quando esse estado mudar. Não há vídeo real fornecido para testar reprodução nesta versão.
+
+Execução final: **31 testes aprovados e 3 ignorados intencionalmente** (menu móvel no desktop e dois testes externos que exigem `PUBLIC_PREVIEW_URL`). Inclui primeira visita, leitura sem início, início explícito com zero conclusões, persistência, ordem dos blocos, avanço ao treino seguinte após conclusão, reversão, migração dos registros antigos e todas as verificações anteriores. A auditoria automática de acessibilidade passou nas telas verificadas.
+
+Capturas: `artifacts/*-visao-geral-primeiro-acesso.png` e `artifacts/*-visao-geral-apos-inicio.png`. Os dois estados desktop foram inspecionados visualmente.
+
+O build `3d894731009c1bb7e048210b9e68d0e3d42aeaf5` foi confirmado como `built` no mesmo endereço público. Os 18 arquivos publicados foram conferidos por HTTPS com verificação TLS ativa e SHA-256 idêntico ao build validado localmente.
